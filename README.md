@@ -25,6 +25,21 @@
 
 > 下方「部署到 Cloudflare Pages」一节保留了 Git 自动部署的说明，想改成"推送即自动上线"时可以参考。
 
+## 🎋 游戏心愿单
+
+访客在导航栏点「游戏心愿单」（`wishlist.html`）可以提交想玩的游戏，数据自动存到 Cloudflare KV。
+
+- **管理页**：`wishlist-admin.html`（导航在「数据统计」页右上角），输入管理密码后查看/删除心愿
+- **管理密码**：存在 KV 的 `admin:suggest-key` 键里（密码请勿写进仓库或发给别人）。想改密码时在项目目录执行：
+  ```
+  npx wrangler kv key put --remote --binding GAME_STATS "admin:suggest-key" "新密码"
+  ```
+- **加群卡片**：在 `data/games.json` 的 `site` 部分填上：
+  - `qqGroup`：QQ 群号（如 `"123456789"`），心愿单页面自动显示"复制群号"按钮
+  - `wxqrcode`：微信群二维码图片路径（把图片放进 `images/`，填如 `"images/qrcode-wechat.png"`）
+  - 两者都为空时自动隐藏加群区域
+- 防刷限流：每 IP 10 分钟最多提交 5 条
+
 ## ✨ 功能
 
 - 🔍 实时搜索（名称 / 原名 / 分类 / 标签 / 简介）
@@ -32,6 +47,7 @@
 - 🖼️ 游戏封面 + 截图画廊（点击放大）
 - 🔗 一个游戏挂多个网盘链接，提取码一键复制
 - 📊 访问统计：浏览量、下载点击量、分网盘明细（需 Cloudflare Pages + KV，见下文）
+- 🎋 游戏心愿单：访客许愿求游戏，站长后台查看/删除（站内表单，自动存 Cloudflare KV）
 - 📱 手机 / 电脑自适应
 - 🌐 零依赖：纯 HTML/CSS/JS，不需要 Node、不需要构建
 

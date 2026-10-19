@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>游戏心愿单 - 游戏资源站</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <style>
+    .wish-wrap{max-width:860px;margin:40px auto 20px}
+    .wish-hero{text-align:center;padding:8px 0 26px}
+    .wish-hero h1{font-size:30px;background:linear-gradient(90deg,#ffffff,#b9a8ff 55%,#7ef0d4);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .wish-hero p{margin-top:10px;color:var(--muted);font-size:14.5px}
+    .wish-cols{display:grid;grid-template-columns:1.5fr 1fr;gap:22px;align-items:start}
+    @media (max-width:760px){.wish-cols{grid-template-columns:1fr}}
+    .panel{background:var(--card);border:1px solid var(--border-soft);border-radius:var(--radius);padding:24px}
+    .panel h2{font-size:17px;margin-bottom:16px;padding-left:11px;border-left:3px solid var(--accent)}
+    .field{margin-bottom:15px}
+    .field label{display:block;font-size:13px;color:var(--muted);margin-bottom:7px}
+    .field label b{color:var(--danger)}
+    .field input,.field textarea{
+      width:100%;background:var(--bg-soft);border:1px solid var(--border);border-radius:9px;
+      padding:10px 13px;color:var(--text);font-size:14px;outline:none;transition:border-color .15s;
+    }
+    .field input:focus,.field textarea:focus{border-color:var(--accent)}
+    .field textarea{min-height:96px;resize:vertical}
+    .field .hint{font-size:11.5px;color:var(--dim);margin-top:5px}
+    .submit-btn{
+      width:100%;padding:12px;font-size:15px;font-weight:700;border-radius:10px;color:#fff;
+      background:linear-gradient(135deg,var(--accent),#9a6cff);box-shadow:0 4px 16px rgba(124,92,255,.35);
+      transition:.15s;border:none;cursor:pointer;
+    }
+    .submit-btn:hover{filter:brightness(1.12)}
+    .submit-btn:disabled{opacity:.6;cursor:not-allowed}
+    .msg{margin-top:13px;font-size:13.5px;text-align:center;min-height:20px}
+    .msg.ok{color:var(--accent2)}
+    .msg.err{color:var(--danger)}
+    .group-card{display:flex;align-items:center;gap:14px;background:var(--bg-soft);border:1px solid var(--border-soft);border-radius:var(--radius-sm);padding:13px 15px;margin-bottom:12px}
+    .group-icon{font-size:24px}
+    .group-info{flex:1;min-width:0}
+    .group-name{font-weight:600;font-size:14px}
+    .group-num{font-size:12.5px;color:var(--muted);margin-top:2px}
+    .qr-box{text-align:center;margin-top:4px}
+    .qr-box img{max-width:200px;border-radius:10px;border:1px solid var(--border);margin:0 auto}
+    .qr-tip{font-size:12px;color:var(--dim);margin-top:8px}
+    .panel .foot-note{margin-top:16px;font-size:12px;color:var(--dim);line-height:1.7}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <svg class="brand-logo" viewBox="0 0 64 64" width="30" height="30" aria-hidden="true">
+          <rect x="8" y="20" width="48" height="26" rx="13" fill="none" stroke="#7c5cff" stroke-width="5"/>
+          <path d="M18 25v16M10 33h16" stroke="#22d3a6" stroke-width="5" stroke-linecap="round"/>
+          <circle cx="42" cy="30" r="3.5" fill="#e9edf6"/>
+          <circle cx="50" cy="36" r="3.5" fill="#e9edf6"/>
+        </svg>
+        <span>游戏资源站</span>
+      </a>
+      <nav class="top-nav">
+        <a href="index.html">首页</a>
+        <a href="wishlist.html">游戏心愿单</a>
+        <a href="stats.html">数据统计</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="wish-wrap">
+      <div class="wish-hero">
+        <h1>🎋 游戏心愿单</h1>
+        <p>想玩哪款游戏？在这里许个愿，站长看到后会尽量安排上架！</p>
+      </div>
+
+      <div class="wish-cols">
+        <div class="panel">
+          <h2>填写心愿</h2>
+          <form id="wish-form">
+            <div class="field">
+              <label>游戏名称 <b>*</b></label>
+              <input id="w-game" type="text" maxlength="100" placeholder="例如：只狼：影逝二度" autocomplete="off" />
+            </div>
+            <div class="field">
+              <label>补充说明（选填）</label>
+              <textarea id="w-note" maxlength="1000" placeholder="想要的版本、整合包、DLC、中文补丁等要求…"></textarea>
+            </div>
+            <div class="field">
+              <label>你的联系方式（选填）</label>
+              <input id="w-contact" type="text" maxlength="100" placeholder="QQ / 邮箱，上架后方便通知你" autocomplete="off" />
+              <div class="hint">只用于通知，不会公开显示</div>
+            </div>
+            <button id="w-submit" class="submit-btn" type="submit">提交心愿</button>
+            <div id="w-msg" class="msg"></div>
+          </form>
+        </div>
+
+        <div class="panel">
+          <h2>加群蹲上新</h2>
+          <div id="group-area">
+            <div class="group-card">
+              <span class="group-icon">🐧</span>
+              <div class="group-info">
+                <div class="group-name">QQ 交流群</div>
+                <div class="group-num" id="qq-num-text">群号加载中…</div>
+              </div>
+              <button class="btn btn-ghost" id="qq-copy" style="display:none">复制群号</button>
+            </div>
+            <div class="qr-box" id="wx-box" style="display:none">
+              <img id="wx-qr" src="" alt="微信群二维码" />
+              <div class="qr-tip">微信扫一扫，进群第一时间蹲上新</div>
+            </div>
+          </div>
+          <div id="no-group" class="foot-note" style="display:none">
+            站长还没开放群聊～有想玩的游戏直接填左侧心愿单即可，站长每天都看。
+          </div>
+          <div class="foot-note">
+            💡 温馨提示：心愿提交后由站长人工审核上架，耐心等待哦。同一游戏重复提交不会加快上架速度～
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-meta">游戏资源站 · 心愿单由 Cloudflare KV 存储</p>
+    </div>
+  </footer>
+
+  <script>
+    'use strict';
+    const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+    function copyText(text, el) {
+      const done = () => { const old = el.textContent; el.textContent = '已复制 ✓'; el.classList.add('copied'); setTimeout(() => { el.textContent = old; el.classList.remove('copied'); }, 1500); };
+      if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(done).catch(() => done());
+      else done();
+    }
+
+    (async () => {
+      let site = {};
+      try {
+        const r = await fetch('data/games.json');
+        if (r.ok) site = (await r.json()).site || {};
+      } catch (e) {}
+
+      const qqNum = site.qqGroup || '';
+      const wxQr = site.wxqrcode || '';
+      const groupArea = document.getElementById('group-area');
+      const noGroup = document.getElementById('no-group');
+      if (qqNum || wxQr) {
+        noGroup.style.display = 'none';
+        if (qqNum) {
+          document.getElementById('qq-num-text').textContent = '群号：' + qqNum;
+          const btn = document.getElementById('qq-copy');
+          btn.style.display = '';
+          btn.addEventListener('click', () => copyText(qqNum, btn));
+        } else {
+          groupArea.querySelector('.group-card').style.display = 'none';
+        }
+        if (wxQr) {
+          document.getElementById('wx-qr').src = wxQr;
+          document.getElementById('wx-box').style.display = '';
+        }
+      } else {
+        groupArea.style.display = 'none';
+        noGroup.style.display = '';
+      }
+    })();
+
+    document.getElementById('wish-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const msg = document.getElementById('w-msg');
+      const btn = document.getElementById('w-submit');
+      const game = document.getElementById('w-game').value.trim();
+      if (!game) { msg.className = 'msg err'; msg.textContent = '请先填写游戏名称～'; return; }
+      msg.textContent = '';
+      btn.disabled = true;
+      btn.textContent = '提交中…';
+      try {
+        const res = await fetch('/api/suggest', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            game,
+            note: document.getElementById('w-note').value,
+            contact: document.getElementById('w-contact').value,
+          }),
+        });
+        const j = await res.json().catch(() => ({}));
+        if (j.ok) {
+          msg.className = 'msg ok';
+          msg.textContent = '🎉 心愿已收到！站长看到后会尽快安排～';
+          e.target.reset();
+        } else {
+          msg.className = 'msg err';
+          msg.textContent = j.reason === 'rate-limited' ? '提交太频繁啦，稍等几分钟再试～' : '提交失败，可以试试加群告诉站长';
+        }
+      } catch (err) {
+        msg.className = 'msg err';
+        msg.textContent = '网络异常，提交失败，可以试试加群告诉站长';
+      }
+      btn.disabled = false;
+      btn.textContent = '提交心愿';
+    });
+  </script>
+</body>
+</html>

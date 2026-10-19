@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>心愿单管理 - 游戏资源站</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <style>
+    .admin-wrap{max-width:900px;margin:36px auto 20px}
+    .admin-head{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:18px}
+    .admin-head h1{font-size:26px}
+    .gate{background:var(--card);border:1px solid var(--border-soft);border-radius:var(--radius);padding:26px;max-width:420px;margin:40px auto;text-align:center}
+    .gate input{
+      width:100%;background:var(--bg-soft);border:1px solid var(--border);border-radius:9px;
+      padding:10px 13px;color:var(--text);font-size:14px;outline:none;text-align:center;margin:14px 0 12px;
+    }
+    .gate input:focus{border-color:var(--accent)}
+    .table-card{background:var(--card);border:1px solid var(--border-soft);border-radius:var(--radius);overflow:hidden}
+    table{width:100%;border-collapse:collapse;font-size:13.5px}
+    th,td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--border-soft);vertical-align:top}
+    th{background:var(--bg-soft);color:var(--muted);font-weight:600;font-size:12.5px}
+    tr:last-child td{border-bottom:none}
+    td.time{color:var(--dim);font-size:12px;white-space:nowrap}
+    td .game-name{font-weight:600}
+    td .note-text{color:#c6cfdf;font-size:13px;white-space:pre-wrap;word-break:break-word}
+    td .contact-text{color:var(--accent2);font-size:12.5px}
+    .del-btn{font-size:12px;color:var(--danger);border:1px solid rgba(255,93,122,.4);padding:3px 10px;border-radius:6px;transition:.15s;white-space:nowrap}
+    .del-btn:hover{background:rgba(255,93,122,.12)}
+    .meta-line{color:var(--dim);font-size:13px}
+    .empty-tip{text-align:center;color:var(--muted);padding:46px 20px}
+    .copy-btn{font-size:12px;color:var(--accent);border:1px solid rgba(124,92,255,.4);padding:2px 9px;border-radius:6px;transition:.15s}
+    .copy-btn:hover{background:rgba(124,92,255,.15)}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><span>🎋 心愿单管理</span></a>
+      <nav class="top-nav">
+        <a href="index.html">首页</a>
+        <a href="wishlist.html">游戏心愿单</a>
+        <a href="stats.html">数据统计</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="admin-wrap">
+      <div id="gate" class="gate" hidden>
+        <h2 style="font-size:18px;margin-bottom:4px">🔐 输入管理密码</h2>
+        <p class="meta-line">密码由站长设置，输入一次后本浏览器会记住</p>
+        <input id="key-input" type="password" placeholder="管理密码" autocomplete="off" />
+        <button id="key-btn" class="btn btn-primary" style="width:100%;justify-content:center">进入</button>
+        <p id="key-msg" class="meta-line" style="margin-top:10px;min-height:18px"></p>
+      </div>
+
+      <div id="list-view" hidden>
+        <div class="admin-head">
+          <h1>心愿单列表</h1>
+          <button id="refresh-btn" class="btn btn-ghost">🔄 刷新</button>
+          <button id="logout-btn" class="btn btn-ghost">退出</button>
+          <span id="meta-line" class="meta-line" style="margin-left:auto"></span>
+        </div>
+        <div class="table-card">
+          <table>
+            <thead><tr><th>时间</th><th>游戏</th><th>备注</th><th>联系方式</th><th style="width:70px">操作</th></tr></thead>
+            <tbody id="tbody"></tbody>
+          </table>
+          <div id="empty-tip" class="empty-tip" hidden>还没有心愿，去首页分享给你的朋友吧～</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer"><div class="container"><p class="footer-meta">心愿单管理页 · 数据存储在 Cloudflare KV</p></div></footer>
+
+  <script>
+    'use strict';
+    const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    const LS_KEY = 'wishlist-admin-key';
+    let key = localStorage.getItem(LS_KEY) || '';
+
+    function showGate(msg) {
+      document.getElementById('gate').hidden = false;
+      document.getElementById('list-view').hidden = true;
+      if (msg) document.getElementById('key-msg').textContent = msg;
+    }
+    function showList() {
+      document.getElementById('gate').hidden = true;
+      document.getElementById('list-view').hidden = false;
+    }
+
+    async function load() {
+      const tbody = document.getElementById('tbody');
+      tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;color:var(--dim)">加载中…</td></tr>';
+      let data;
+      try {
+        const r = await fetch('/api/suggestions?key=' + encodeURIComponent(key), { cache: 'no-store' });
+        data = await r.json().catch(() => ({}));
+      } catch (e) {
+        tbody.innerHTML = '';
+        document.getElementById('empty-tip').textContent = '加载失败，网络异常';
+        document.getElementById('empty-tip').hidden = false;
+        return;
+      }
+      if (!data.ok) {
+        localStorage.removeItem(LS_KEY);
+        key = '';
+        showGate('密码不对或已失效，请重新输入');
+        return;
+      }
+      const items = data.items || [];
+      document.getElementById('meta-line').textContent = '共 ' + items.length + ' 条心愿';
+      tbody.innerHTML = '';
+      document.getElementById('empty-tip').hidden = items.length > 0;
+      for (const it of items) {
+        const tr = document.createElement('tr');
+        tr.innerHTML =
+          '<td class="time">' + esc((it.time || '').replace('T', ' ').slice(0, 16)) + '</td>' +
+          '<td><span class="game-name">' + esc(it.game) + '</span></td>' +
+          '<td><span class="note-text">' + esc(it.note || '—') + '</span></td>' +
+          '<td><span class="contact-text">' + esc(it.contact || '—') + '</span></td>' +
+          '<td><button class="del-btn" data-id="' + esc(it.id) + '">删除</button></td>';
+        tbody.appendChild(tr);
+      }
+      tbody.querySelectorAll('.del-btn').forEach((b) => {
+        b.addEventListener('click', async () => {
+          if (!confirm('删除这条心愿？')) return;
+          try {
+            const r = await fetch('/api/suggest-delete?key=' + encodeURIComponent(key), {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ id: b.dataset.id }),
+            });
+            const j = await r.json().catch(() => ({}));
+            if (j.ok) load(); else alert('删除失败');
+          } catch (e) { alert('删除失败，网络异常'); }
+        });
+      });
+    }
+
+    document.getElementById('key-btn').addEventListener('click', () => {
+      key = document.getElementById('key-input').value.trim();
+      if (!key) { document.getElementById('key-msg').textContent = '请输入密码'; return; }
+      load().then(() => {
+        if (key) { localStorage.setItem(LS_KEY, key); showList(); }
+      });
+    });
+    document.getElementById('key-input').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') document.getElementById('key-btn').click();
+    });
+    document.getElementById('refresh-btn').addEventListener('click', load);
+    document.getElementById('logout-btn').addEventListener('click', () => {
+      localStorage.removeItem(LS_KEY);
+      key = '';
+      document.getElementById('key-input').value = '';
+      showGate();
+    });
+
+    if (key) { showList(); load(); } else { showGate(); }
+  </script>
+</body>
+</html>
