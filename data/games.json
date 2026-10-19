@@ -144,6 +144,26 @@
         { "name": "百度网盘", "type": "baidu", "url": "https://pan.baidu.com/s/REPLACE_ME", "code": "de01" },
         { "name": "阿里云盘", "type": "aliyun", "url": "https://www.alipan.com/s/REPLACE_ME", "code": "" }
       ]
+    },
+    {
+      "id": "guigubahuang",
+      "title": "鬼谷八荒整合包",
+      "originalTitle": "Tale of Immortal",
+      "category": "角色扮演",
+      "tags": ["修仙", "沙盒", "国风", "养成"],
+      "cover": "images/covers/tale-of-immortal.jpg",
+      "screenshots": [],
+      "platform": ["Windows"],
+      "language": "简体中文",
+      "publisher": "鬼谷工作室",
+      "releaseDate": "2021-01-27",
+      "description": "开放世界修仙 RPG：捏脸拜师、修炼功法、结交道侣、门派恩怨，一步步从凡人修炼成仙。整合包版本，内容以压缩包内说明为准。",
+      "note": "⏳ 先保存，防和谐：资源可能随时失效，请尽快转存。",
+      "featured": true,
+      "addedAt": "2026-10-19",
+      "links": [
+        { "name": "夸克网盘", "type": "quark", "url": "https://pan.quark.cn/s/31feec8ba03d", "code": "" }
+      ]
     }
   ]
 }

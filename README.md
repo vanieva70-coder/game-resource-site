@@ -6,6 +6,25 @@
 - 添加新游戏 = 改一个 JSON 文件 + 放一张图
 - 免费托管在 Cloudflare Pages，长期稳定运行
 
+## ✅ 当前状态（已上线）
+
+- 线上地址：**https://game-resource-hub.pages.dev**
+- GitHub 仓库：https://github.com/vanieva70-coder/game-resource-site
+- 访问统计已开启（Cloudflare KV 命名空间 `GAME_STATS` 已绑定）
+
+### 更新网站的方法（日常用这个）
+
+1. 修改 `data/games.json`，把新封面/截图放进 `images/` 对应文件夹
+2. 双击项目里的 **deploy.bat**，等待 1 分钟左右生效
+3. 顺手备份到 GitHub（在项目文件夹打开终端执行）：
+   ```
+   git add -A
+   git commit -m "更新游戏"
+   git push
+   ```
+
+> 下方「部署到 Cloudflare Pages」一节保留了 Git 自动部署的说明，想改成"推送即自动上线"时可以参考。
+
 ## ✨ 功能
 
 - 🔍 实时搜索（名称 / 原名 / 分类 / 标签 / 简介）
