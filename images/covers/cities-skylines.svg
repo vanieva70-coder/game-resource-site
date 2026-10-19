@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 338" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c1f2b"/><stop offset="1" stop-color="#2c5364"/></linearGradient></defs>
+  <rect width="600" height="338" fill="url(#g)"/>
+  <circle cx="540" cy="300" r="170" fill="#ffffff" opacity="0.06"/>
+  <circle cx="80" cy="50" r="130" fill="#000000" opacity="0.18"/>
+  <text x="300" y="156" font-size="44" font-weight="600" fill="#e3f2f7" text-anchor="middle">城市：天际线</text>
+  <text x="300" y="198" font-size="19" fill="#9cc6d4" text-anchor="middle">Cities: Skylines · 示例封面</text>
+  <text x="300" y="226" font-size="14" fill="#74a3b4" text-anchor="middle">请将真实封面放入 images/covers/ 并替换路径</text>
+</svg>

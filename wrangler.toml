@@ -1,0 +1,9 @@
+# Cloudflare Pages 配置（站点已上线：https://game-resource-hub.pages.dev）
+name = "game-resource-hub"
+compatibility_date = "2026-10-19"
+pages_build_output_dir = "."
+
+# 访问统计用的 KV 命名空间绑定
+[[kv_namespaces]]
+binding = "GAME_STATS"
+id = "ca0bc32ca0d04b0180d339b79337e8e7"

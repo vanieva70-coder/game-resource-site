@@ -1,0 +1,149 @@
+{
+  "site": {
+    "name": "Gamelib 游戏资源站",
+    "description": "收录 PC 单机游戏，提供百度网盘、夸克网盘、阿里云盘等多网盘下载链接",
+    "announcement": "📢 示例数据中的网盘链接均为占位符，请替换为真实链接后发布。添加游戏的方法见 README.md。",
+    "footer": "本站资源仅供学习交流，请于下载后 24 小时内删除；喜欢本作请支持正版。"
+  },
+  "games": [
+    {
+      "id": "stardew-valley",
+      "title": "星露谷物语",
+      "originalTitle": "Stardew Valley",
+      "category": "模拟经营",
+      "tags": ["种田", "像素风", "休闲", "多人合作"],
+      "cover": "images/covers/stardew-valley.svg",
+      "screenshots": ["images/screenshots/stardew-1.svg", "images/screenshots/stardew-2.svg"],
+      "version": "v1.6.8",
+      "size": "1.2 GB",
+      "platform": ["Windows"],
+      "language": "简体中文",
+      "publisher": "ConcernedApe",
+      "releaseDate": "2016-02-27",
+      "description": "你继承了爷爷留下的老旧农场，带着几件旧工具和一点钱来到星露谷，开始新的生活。种田、钓鱼、挖矿、交友、恋爱结婚……在这个像素小镇里，过你想过的田园生活。支持最多 4 人联机合作。",
+      "note": "解压即玩，无需安装。解压密码：gamelib",
+      "featured": true,
+      "addedAt": "2024-05-01",
+      "links": [
+        { "name": "百度网盘", "type": "baidu", "url": "https://pan.baidu.com/s/REPLACE_ME", "code": "abcd" },
+        { "name": "夸克网盘", "type": "quark", "url": "https://pan.quark.cn/s/REPLACE_ME", "code": "" },
+        { "name": "阿里云盘", "type": "aliyun", "url": "https://www.alipan.com/s/REPLACE_ME", "code": "" }
+      ]
+    },
+    {
+      "id": "hades",
+      "title": "哈迪斯",
+      "originalTitle": "Hades",
+      "category": "动作游戏",
+      "tags": ["Roguelike", "希腊神话", "高难度", "手柄支持"],
+      "cover": "images/covers/hades.svg",
+      "screenshots": ["images/screenshots/hades-1.svg", "images/screenshots/hades-2.svg"],
+      "version": "v1.38290",
+      "size": "9.6 GB",
+      "platform": ["Windows"],
+      "language": "简体中文",
+      "publisher": "Supergiant Games",
+      "releaseDate": "2020-09-17",
+      "description": "作为冥界王子扎格列欧斯，挥舞奥林匹斯众神赐予的武器，一次次冲出冥界，逃离父亲的掌控。每一次死亡都会变强，每一次逃脱都有新的故事。Roguelike 与叙事的完美结合，2020 年度游戏的有力竞争者。",
+      "note": "含全部 DLC 整合版。解压密码：gamelib",
+      "featured": true,
+      "addedAt": "2024-04-18",
+      "links": [
+        { "name": "百度网盘", "type": "baidu", "url": "https://pan.baidu.com/s/REPLACE_ME", "code": "zxcv" },
+        { "name": "夸克网盘", "type": "quark", "url": "https://pan.quark.cn/s/REPLACE_ME", "code": "" }
+      ]
+    },
+    {
+      "id": "celeste",
+      "title": "蔚蓝",
+      "originalTitle": "Celeste",
+      "category": "平台跳跃",
+      "tags": ["像素风", "平台跳跃", "治愈", "剧情"],
+      "cover": "images/covers/celeste.svg",
+      "screenshots": ["images/screenshots/celeste-1.svg"],
+      "version": "v1.4.0.0",
+      "size": "1.3 GB",
+      "platform": ["Windows", "macOS"],
+      "language": "简体中文",
+      "publisher": "Maddy Makes Games",
+      "releaseDate": "2018-01-25",
+      "description": "帮助玛德琳克服内心深处的恶魔，登上塞莱斯特山的顶峰。超过 700 个精心设计的平台关卡，难度极高但死亡惩罚极低，配乐与剧情都堪称教科书级别。",
+      "note": "解压即玩。解压密码：gamelib",
+      "featured": false,
+      "addedAt": "2024-03-10",
+      "links": [
+        { "name": "百度网盘", "type": "baidu", "url": "https://pan.baidu.com/s/REPLACE_ME", "code": "cel1" },
+        { "name": "123云盘", "type": "123", "url": "https://www.123pan.com/s/REPLACE_ME", "code": "" }
+      ]
+    },
+    {
+      "id": "cities-skylines",
+      "title": "城市：天际线",
+      "originalTitle": "Cities: Skylines",
+      "category": "策略模拟",
+      "tags": ["城市建设", "经营", "沙盒", "创意工坊"],
+      "cover": "images/covers/cities-skylines.svg",
+      "screenshots": [],
+      "version": "v1.17.1",
+      "size": "12 GB",
+      "platform": ["Windows"],
+      "language": "简体中文",
+      "publisher": "Colossal Order",
+      "releaseDate": "2015-03-10",
+      "description": "从一块空地开始，规划道路、划分区域、建设市政设施，一步步把你的城市发展成超级大都会。交通、教育、医疗、税收……每个细节都归你管，是同类游戏中自由度最高的一部作品。",
+      "note": "含多个热门 DLC。解压密码：gamelib",
+      "featured": false,
+      "addedAt": "2024-02-22",
+      "links": [
+        { "name": "百度网盘", "type": "baidu", "url": "https://pan.baidu.com/s/REPLACE_ME", "code": "city" },
+        { "name": "夸克网盘", "type": "quark", "url": "https://pan.quark.cn/s/REPLACE_ME", "code": "" }
+      ]
+    },
+    {
+      "id": "hollow-knight",
+      "title": "空洞骑士",
+      "originalTitle": "Hollow Knight",
+      "category": "动作冒险",
+      "tags": ["类银河恶魔城", "手绘画风", "高难度", "探索"],
+      "cover": "images/covers/hollow-knight.svg",
+      "screenshots": ["images/screenshots/hollow-knight-1.svg"],
+      "version": "v1.5.78.11833",
+      "size": "8.9 GB",
+      "platform": ["Windows"],
+      "language": "简体中文",
+      "publisher": "Team Cherry",
+      "releaseDate": "2017-02-24",
+      "description": "深入古老昆虫王国的地下世界，探索蜿蜒的洞穴、古老的城市和致命的废墟。手绘美术风格精美绝伦，战斗手感扎实，地图设计环环相扣，是类银河恶魔城类型的巅峰之作。",
+      "note": "解压即玩。解压密码：gamelib",
+      "featured": false,
+      "addedAt": "2024-01-15",
+      "links": [
+        { "name": "百度网盘", "type": "baidu", "url": "https://pan.baidu.com/s/REPLACE_ME", "code": "hk01" },
+        { "name": "夸克网盘", "type": "quark", "url": "https://pan.quark.cn/s/REPLACE_ME", "code": "" }
+      ]
+    },
+    {
+      "id": "disco-elysium",
+      "title": "极乐迪斯科",
+      "originalTitle": "Disco Elysium",
+      "category": "角色扮演",
+      "tags": ["侦探", "剧情", "文本量大", "推理"],
+      "cover": "images/covers/disco-elysium.svg",
+      "screenshots": [],
+      "version": "v2.1",
+      "size": "13.5 GB",
+      "platform": ["Windows"],
+      "language": "简体中文",
+      "publisher": "ZA/UM",
+      "releaseDate": "2019-10-15",
+      "description": "你是一名失忆的警探，在一个陌生的小镇上调查一桩吊死的尸体案。没有战斗，只有对话、技能检定和抉择。史上文本量最庞大、文学性最强的 RPG 之一，百万字级中文翻译。",
+      "note": "解压即玩。解压密码：gamelib",
+      "featured": false,
+      "addedAt": "2023-12-05",
+      "links": [
+        { "name": "百度网盘", "type": "baidu", "url": "https://pan.baidu.com/s/REPLACE_ME", "code": "de01" },
+        { "name": "阿里云盘", "type": "aliyun", "url": "https://www.alipan.com/s/REPLACE_ME", "code": "" }
+      ]
+    }
+  ]
+}
