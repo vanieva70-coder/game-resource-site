@@ -43,6 +43,11 @@
     .qr-box{text-align:center;margin-top:4px}
     .qr-box img{max-width:200px;border-radius:10px;border:1px solid var(--border);margin:0 auto}
     .qr-tip{font-size:12px;color:var(--dim);margin-top:8px}
+    .qq-note{
+      margin-top:14px;background:rgba(255,180,84,.08);border:1px solid rgba(255,180,84,.3);
+      color:#ffd9a0;border-radius:var(--radius-sm);padding:11px 14px;font-size:13px;line-height:1.7;
+    }
+    .qq-note b{color:#ffce8a}
     .panel .foot-note{margin-top:16px;font-size:12px;color:var(--dim);line-height:1.7}
   </style>
 </head>
@@ -110,6 +115,9 @@
               <img id="wx-qr" src="" alt="微信群二维码" />
               <div class="qr-tip">微信扫一扫，进群第一时间蹲上新</div>
             </div>
+            <div class="qq-note" id="qq-note" style="display:none">
+              ⚡ 站长平时很少看站内留言，<b>着急的事直接来 QQ 群找我，回复更快哦～</b>
+            </div>
           </div>
           <div id="no-group" class="foot-note" style="display:none">
             站长还没开放群聊～有想玩的游戏直接填左侧心愿单即可，站长每天都看。
@@ -156,6 +164,7 @@
           const btn = document.getElementById('qq-copy');
           btn.style.display = '';
           btn.addEventListener('click', () => copyText(qqNum, btn));
+          document.getElementById('qq-note').style.display = '';
         } else {
           groupArea.querySelector('.group-card').style.display = 'none';
         }
