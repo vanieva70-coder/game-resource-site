@@ -111,6 +111,10 @@
               </div>
               <button class="btn btn-ghost" id="qq-copy" style="display:none">复制群号</button>
             </div>
+            <div class="qr-box" id="qq-qr-box" style="display:none">
+              <img id="qq-qr" src="" alt="QQ 群二维码" />
+              <div class="qr-tip">手机 QQ 扫一扫，进群第一时间蹲上新</div>
+            </div>
             <div class="qr-box" id="wx-box" style="display:none">
               <img id="wx-qr" src="" alt="微信群二维码" />
               <div class="qr-tip">微信扫一扫，进群第一时间蹲上新</div>
@@ -155,9 +159,10 @@
 
       const qqNum = site.qqGroup || '';
       const wxQr = site.wxqrcode || '';
+      const qqQr = site.qqqrcode || '';
       const groupArea = document.getElementById('group-area');
       const noGroup = document.getElementById('no-group');
-      if (qqNum || wxQr) {
+      if (qqNum || wxQr || qqQr) {
         noGroup.style.display = 'none';
         if (qqNum) {
           document.getElementById('qq-num-text').textContent = '群号：' + qqNum;
@@ -167,6 +172,10 @@
           document.getElementById('qq-note').style.display = '';
         } else {
           groupArea.querySelector('.group-card').style.display = 'none';
+        }
+        if (qqQr) {
+          document.getElementById('qq-qr').src = qqQr;
+          document.getElementById('qq-qr-box').style.display = '';
         }
         if (wxQr) {
           document.getElementById('wx-qr').src = wxQr;
