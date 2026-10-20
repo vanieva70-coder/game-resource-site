@@ -1,21 +1,20 @@
 @echo off
-chcp 65001 >nul
-title æ¸¸æˆèµ„æºç«™ - ä¸€é”®æ›´æ–°ä¸Šçº¿
+title ÓÎÏ·×ÊÔ´Õ¾ - Ò»¼ü¸üĞÂÉÏÏß
 cd /d "%~dp0"
 echo.
-echo  æ­£åœ¨ä¸Šä¼ æ›´æ–°åˆ° Cloudflare Pages ...
-echo  ï¼ˆæ”¹å®Œ games.json æˆ–å›¾ç‰‡åï¼ŒåŒå‡»æœ¬æ–‡ä»¶å³å¯æ›´æ–°ç½‘ç«™ï¼‰
+echo  ÕıÔÚÉÏ´«¸üĞÂµ½ Cloudflare Pages ...
+echo  £¨¸ÄÍê games.json »òÍ¼Æ¬ºó£¬Ë«»÷±¾ÎÄ¼ş¼´¿É¸üĞÂÍøÕ¾£©
 echo.
 "C:\Users\Administrator\.dsh\dsh-runtimes\dsh-plugin-desktop-primary-runtime\dependencies\node\bin\node.exe" "D:\deepseek\.tools\wrangler\node_modules\wrangler\bin\wrangler.js" pages deploy . --project-name game-resource-hub --commit-dirty=true
 echo.
-echo  æ­£åœ¨å¤‡ä»½ä»£ç åˆ° GitHub ...
+echo  ÕıÔÚ±¸·İ´úÂëµ½ GitHub ...
 set "PATH=C:\Program Files\Git\cmd;%PATH%"
 git add -A
-git commit -m "æ›´æ–°èµ„æºç«™" --allow-empty >nul 2>nul
+git commit -m "¸üĞÂ×ÊÔ´Õ¾" --allow-empty >nul 2>nul
 git push
 echo.
 echo  --------------------------------------------------
-echo   æ›´æ–°å®Œæˆï¼ç½‘ç«™åœ°å€ï¼š https://game-resource-hub.pages.dev
+echo   ¸üĞÂÍê³É£¡ÍøÕ¾µØÖ·£º https://game-resource-hub.pages.dev
 echo  --------------------------------------------------
 echo.
 pause

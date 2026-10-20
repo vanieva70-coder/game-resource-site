@@ -1,20 +1,13 @@
 @echo off
-chcp 65001 >nul
-title æ¸¸æˆèµ„æºç«™ - ä¸€é”®åˆ†äº«
+title ÓÎÏ·×ÊÔ´Õ¾ - Ò»¼ü·ÖÏí
 echo.
 echo  ============================================
-echo    æ­£åœ¨å¯åŠ¨æœ¬åœ°æœåŠ¡å™¨å’Œå…¬ç½‘éš§é“ï¼Œè¯·ç¨å€™...
+echo    ÕýÔÚÆô¶¯±¾µØ·þÎñÆ÷ºÍ¹«ÍøËíµÀ£¬ÇëÉÔºò...
 echo  ============================================
 echo.
-
-rem 1. å¯åŠ¨æœ¬åœ°æœåŠ¡å™¨ï¼ˆåŽå°çª—å£ï¼Œæœ€å°åŒ–ï¼‰
 start "site-server" /min "C:\Users\Administrator\.dsh\dsh-runtimes\dsh-plugin-desktop-primary-runtime\dependencies\python\python.exe" -m http.server 8010 --directory "%~dp0" --bind 127.0.0.1
-
 timeout /t 2 /nobreak >nul
-
-rem 2. å¯åŠ¨å…¬ç½‘éš§é“ï¼ˆæœ¬çª—å£ä¼šæ˜¾ç¤ºå…¬ç½‘åœ°å€ï¼‰
 "D:\deepseek\.tools\cloudflared.exe" tunnel --url http://127.0.0.1:8010 --no-autoupdate
-
 echo.
-echo  éš§é“å·²å…³é—­ã€‚æŒ‰ä»»æ„é”®é€€å‡º...
+echo  ËíµÀÒÑ¹Ø±Õ¡£°´ÈÎÒâ¼üÍË³ö...
 pause >nul
