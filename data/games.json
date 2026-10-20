@@ -425,6 +425,40 @@
           "code": ""
         }
       ]
+    },
+    {
+      "id": "bodezhimen3v4116946847",
+      "title": "博德之门3 v4.1.1.6946847",
+      "category": "角色扮演（RPG）",
+      "tags": [
+        "龙与地下城",
+        "回合制",
+        "剧情丰富",
+        "选择导向",
+        "多人合作"
+      ],
+      "cover": "images/covers/bodezhimen3v4116946847.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows"
+      ],
+      "featured": false,
+      "addedAt": "2026-10-20",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/b28f9961ee12?pwd=6666",
+          "code": ""
+        }
+      ],
+      "size": "132.4 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Larian Studios",
+      "releaseDate": "2023-08-03",
+      "description": "基于《龙与地下城》规则的角色扮演游戏，以极高的自由度和深度选择分支著称，玩家的每个决定都将塑造费伦大陆的冒险故事。",
+      "note": "无",
+      "buyUrl": "https://store.steampowered.com/app/1086940/"
     }
   ]
 }
