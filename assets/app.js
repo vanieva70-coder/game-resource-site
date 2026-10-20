@@ -230,6 +230,14 @@ function renderDetail(id) {
       </div>
     </div>
     ${g.note ? `<div class="note-box">📌 ${esc(g.note)}</div>` : ''}
+    ${g.buyUrl ? `<div class="buy-box">
+      <span class="buy-icon">🛒</span>
+      <div class="buy-text">
+        <div class="buy-title">支持正版</div>
+        <div class="buy-sub">喜欢这款游戏？去官方商店购买正版，支持开发者做出更好的作品</div>
+      </div>
+      <a class="btn btn-buy" href="${esc(g.buyUrl)}" target="_blank" rel="noopener nofollow">前往购买正版 ↗</a>
+    </div>` : ''}
     <h3 class="section-title">下载链接</h3>
     <div class="link-list">${links || '<p class="empty-sub">暂无下载链接</p>'}</div>
     ${shots}

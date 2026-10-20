@@ -186,6 +186,23 @@ input,select{font:inherit;color:inherit}
 .btn-ghost:hover{color:var(--text);border-color:var(--accent)}
 .btn.copied{color:var(--accent2) !important;border-color:var(--accent2) !important}
 
+/* ============ 支持正版 ============ */
+.buy-box{
+  margin-top:16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+  background:linear-gradient(135deg,rgba(34,211,166,.10),rgba(124,92,255,.10));
+  border:1px solid rgba(34,211,166,.35);border-radius:var(--radius);
+  padding:14px 18px;
+}
+.buy-icon{font-size:26px}
+.buy-text{flex:1;min-width:200px}
+.buy-title{font-weight:700;font-size:15px;color:var(--accent2)}
+.buy-sub{font-size:12.5px;color:var(--muted);margin-top:2px}
+.btn-buy{
+  background:linear-gradient(135deg,#00b894,#00cec9);color:#fff;font-weight:700;
+  box-shadow:0 4px 14px rgba(0,206,201,.35);
+}
+.btn-buy:hover{filter:brightness(1.12)}
+
 /* ============ 截图 ============ */
 .shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
 .shot{

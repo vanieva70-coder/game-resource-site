@@ -20,7 +20,7 @@
         "休闲",
         "多人合作"
       ],
-      "cover": "images/covers/stardew-valley.svg",
+      "cover": "images/covers/stardew-valley.jpg",
       "screenshots": [
         "images/screenshots/stardew-1.svg",
         "images/screenshots/stardew-2.svg"
@@ -56,7 +56,8 @@
           "url": "https://www.alipan.com/s/REPLACE_ME",
           "code": ""
         }
-      ]
+      ],
+      "buyUrl": "https://store.steampowered.com/app/413150/"
     },
     {
       "id": "hades",
@@ -69,7 +70,7 @@
         "高难度",
         "手柄支持"
       ],
-      "cover": "images/covers/hades.svg",
+      "cover": "images/covers/hades.jpg",
       "screenshots": [
         "images/screenshots/hades-1.svg",
         "images/screenshots/hades-2.svg"
@@ -99,7 +100,8 @@
           "url": "https://pan.quark.cn/s/REPLACE_ME",
           "code": ""
         }
-      ]
+      ],
+      "buyUrl": "https://store.steampowered.com/app/1145360/"
     },
     {
       "id": "celeste",
@@ -112,7 +114,7 @@
         "治愈",
         "剧情"
       ],
-      "cover": "images/covers/celeste.svg",
+      "cover": "images/covers/celeste.jpg",
       "screenshots": [
         "images/screenshots/celeste-1.svg"
       ],
@@ -142,7 +144,8 @@
           "url": "https://www.123pan.com/s/REPLACE_ME",
           "code": ""
         }
-      ]
+      ],
+      "buyUrl": "https://store.steampowered.com/app/504230/"
     },
     {
       "id": "cities-skylines",
@@ -155,7 +158,7 @@
         "沙盒",
         "创意工坊"
       ],
-      "cover": "images/covers/cities-skylines.svg",
+      "cover": "images/covers/cities-skylines.jpg",
       "screenshots": [],
       "version": "v1.17.1",
       "size": "12 GB",
@@ -182,7 +185,8 @@
           "url": "https://pan.quark.cn/s/REPLACE_ME",
           "code": ""
         }
-      ]
+      ],
+      "buyUrl": "https://store.steampowered.com/app/255710/"
     },
     {
       "id": "hollow-knight",
@@ -195,7 +199,7 @@
         "高难度",
         "探索"
       ],
-      "cover": "images/covers/hollow-knight.svg",
+      "cover": "images/covers/hollow-knight.jpg",
       "screenshots": [
         "images/screenshots/hollow-knight-1.svg"
       ],
@@ -224,7 +228,8 @@
           "url": "https://pan.quark.cn/s/REPLACE_ME",
           "code": ""
         }
-      ]
+      ],
+      "buyUrl": "https://store.steampowered.com/app/367520/"
     },
     {
       "id": "disco-elysium",
@@ -237,7 +242,7 @@
         "文本量大",
         "推理"
       ],
-      "cover": "images/covers/disco-elysium.svg",
+      "cover": "images/covers/disco-elysium.jpg",
       "screenshots": [],
       "version": "v2.1",
       "size": "13.5 GB",
@@ -264,7 +269,8 @@
           "url": "https://www.alipan.com/s/REPLACE_ME",
           "code": ""
         }
-      ]
+      ],
+      "buyUrl": "https://store.steampowered.com/app/632470/"
     },
     {
       "id": "guigubahuang",
@@ -296,7 +302,8 @@
           "url": "https://pan.quark.cn/s/31feec8ba03d",
           "code": ""
         }
-      ]
+      ],
+      "buyUrl": "https://store.steampowered.com/app/1468810/"
     },
     {
       "id": "aximeinvsheyoujingran2",
