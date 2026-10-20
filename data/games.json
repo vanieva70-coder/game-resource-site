@@ -398,6 +398,33 @@
       "releaseDate": "2021-05-25",
       "description": "以“东方Project”为题材的迷宫探索RPG，玩家可组建队伍探索随机生成的迷宫。",
       "note": "无"
+    },
+    {
+      "id": "game",
+      "title": "════════════════════════════════════════════════════════",
+      "category": "其他",
+      "tags": [],
+      "cover": "images/covers/game.svg",
+      "screenshots": [],
+      "platform": [
+        "Windows"
+      ],
+      "featured": false,
+      "addedAt": "2026-10-20",
+      "links": [
+        {
+          "name": "网盘下载",
+          "type": "default",
+          "url": "https://store.steampowered.com/app/1145360/",
+          "code": ""
+        },
+        {
+          "name": "网盘下载",
+          "type": "default",
+          "url": "https://任意商店网址",
+          "code": ""
+        }
+      ]
     }
   ]
 }
