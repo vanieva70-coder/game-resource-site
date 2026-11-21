@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 338" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a0d12"/><stop offset="1" stop-color="#a4161a"/></linearGradient></defs>
+  <rect width="600" height="338" fill="url(#g)"/>
+  <circle cx="80" cy="60" r="150" fill="#ffffff" opacity="0.07"/>
+  <circle cx="540" cy="300" r="170" fill="#000000" opacity="0.18"/>
+  <text x="300" y="160" font-size="42" font-weight="600" fill="#eef1f8" text-anchor="middle">S使命召唤23：现代战争4 豪华版 附：高清材质包+多国语言包+修复补丁</text>
+  <text x="300" y="202" font-size="15" fill="#aab3c8" text-anchor="middle">自动生成封面 · 可替换为真实图片</text>
+</svg>
