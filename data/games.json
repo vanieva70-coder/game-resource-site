@@ -8,5 +8,1873 @@
     "qqqrcode": "images/qq-qrcode.jpg",
     "wxqrcode": ""
   },
-  "games": []
+  "games": [
+    {
+      "id": "aximeinvsheyoujingran2",
+      "title": "阿西，美女舍友竟然？2",
+      "category": "真人互动影游 / 恋爱模拟",
+      "tags": [
+        "FMV",
+        "恋爱",
+        "真人演出"
+      ],
+      "cover": "images/covers/aximeinvsheyoujingran2.svg",
+      "screenshots": [],
+      "platform": [
+        "Windows"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/0c36e8a28c9f?pwd=6666",
+          "code": ""
+        }
+      ],
+      "size": "24.2 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "StoryTaco / 3Y Corporation",
+      "releaseDate": "2025-11-19",
+      "description": "真人恋爱互动影游，玩家扮演房东与六位女性室友共同生活，包含分支剧情与隐藏结局。",
+      "note": "解压码 147258",
+      "buyUrl": "https://store.steampowered.com/app/3731020/"
+    },
+    {
+      "id": "anheipohuaishen2zhongzhiban",
+      "title": "暗黑破坏神 2：重制版",
+      "category": "动作角色扮演游戏",
+      "tags": [
+        "暗黑",
+        "刷宝",
+        "经典重制"
+      ],
+      "cover": "images/covers/anheipohuaishen2zhongzhiban.svg",
+      "screenshots": [],
+      "platform": [
+        "Windows"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/cf4bc10aae47?pwd=6666",
+          "code": ""
+        }
+      ],
+      "size": "28.9 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Blizzard Entertainment",
+      "releaseDate": "2021-09-23",
+      "description": "《暗黑破坏神2》的高清重制版，包含原版及资料片《毁灭之王》内容，画面全面升级，保留原版核心玩法。",
+      "note": "无",
+      "buyUrl": "https://store.steampowered.com/app/2536520/"
+    },
+    {
+      "id": "bukesiyidehuanxiangxiangv109",
+      "title": "不可思议的幻想乡 v1.09",
+      "category": "角色扮演 / 迷宫探索（Roguelike）",
+      "tags": [
+        "东方Project",
+        "迷宫探索",
+        "二次元",
+        "Roguelike"
+      ],
+      "cover": "images/covers/bukesiyidehuanxiangxiangv109.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/061193fe9d24?pwd=6666",
+          "code": ""
+        },
+        {
+          "name": "网盘下载",
+          "type": "default",
+          "url": "https://store.steampowered.com/app/1145360/",
+          "code": ""
+        },
+        {
+          "name": "网盘下载",
+          "type": "default",
+          "url": "https://任意商店网址",
+          "code": ""
+        }
+      ],
+      "size": "4.3 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "AQUASTYLE",
+      "releaseDate": "2021-05-25",
+      "description": "以“东方Project”为题材的迷宫探索RPG，玩家可组建队伍探索随机生成的迷宫。",
+      "note": "无",
+      "buyUrl": "https://store.steampowered.com/app/1005120/"
+    },
+    {
+      "id": "yyingzhirenlinghaohuazhongwenbanquan",
+      "title": "Y影之刃零 豪华中文版 全DLC（VBS一键启动）",
+      "category": "动作角色扮演（ARPG）",
+      "tags": [
+        "武侠",
+        "功夫朋克",
+        "快节奏",
+        "剧情丰富",
+        "单人"
+      ],
+      "cover": "images/covers/yyingzhirenlinghaohuazhongwenbanquan.svg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS5"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/f2b6226c4b70",
+          "code": ""
+        }
+      ],
+      "size": "138.3 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "S-GAME Studio（灵游坊）",
+      "releaseDate": "2026-10-29",
+      "description": "灵游坊打造的暗黑武侠动作冒险游戏。化身身受重创、仅剩六十六天寿命的刺客魂，在失序末法的江湖中追查真相，以多样主武器与影之武杀出一条血路。",
+      "note": "豪华中文版，全DLC，VBS一键启动",
+      "buyUrl": "https://store.steampowered.com/app/4115450/"
+    },
+    {
+      "id": "007chulufengmangv130zuixinbanbenjiey",
+      "title": "007 初露锋芒 v1.3.0 最新版本 解压即玩 全DLC",
+      "category": "动作冒险",
+      "tags": [
+        "间谍",
+        "潜行",
+        "第三人称射击",
+        "电影感",
+        "剧情丰富"
+      ],
+      "cover": "images/covers/007chulufengmangv130zuixinbanbenjiey.svg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS5",
+        "Xbox Series X|S"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/e218434487a5",
+          "code": ""
+        }
+      ],
+      "size": "47.5 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "IO Interactive A/S",
+      "releaseDate": "2026-05-26",
+      "description": "由《杀手》系列开发商打造的邦德起源故事。扮演年轻、足智多谋却略显鲁莽的MI6新人詹姆斯·邦德，在惊险的间谍行动中赢得代号。",
+      "note": "最新版本，解压即玩，全DLC",
+      "buyUrl": "https://store.steampowered.com/app/3768760/"
+    },
+    {
+      "id": "aaierdengfahuanv1171zuixinbanbenquan",
+      "title": "A艾尔登法环 v1.17.1 最新版本 全DLC 新增DLC：褪色者包",
+      "category": "动作角色扮演（ARPG）",
+      "tags": [
+        "类魂",
+        "开放世界",
+        "黑暗奇幻",
+        "高难度",
+        "多人合作"
+      ],
+      "cover": "images/covers/aaierdengfahuanv1171zuixinbanbenquan.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS",
+        "Xbox"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/278ba859063d",
+          "code": ""
+        }
+      ],
+      "size": "207.1 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "FromSoftware, Inc.",
+      "releaseDate": "2022-02-24",
+      "description": "以正统黑暗奇幻世界为舞台的动作RPG。走进辽阔场景与地下迷宫探索未知，挑战困难重重的险境，登场角色之间的利害关系谱成引人入胜的群像剧。",
+      "note": "全DLC，新增DLC「褪色者包」",
+      "buyUrl": "https://store.steampowered.com/app/1245620/"
+    },
+    {
+      "id": "aanheipohuaishen2zhongzhibanv3393847",
+      "title": "A暗黑破坏神2：重制版 v3.3.93847 豪华中文版 全DLC",
+      "category": "动作角色扮演（ARPG）",
+      "tags": [
+        "刷宝",
+        "砍杀",
+        "黑暗奇幻",
+        "等角视角",
+        "多人合作"
+      ],
+      "cover": "images/covers/aanheipohuaishen2zhongzhibanv3393847.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS",
+        "Xbox",
+        "Switch"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/0c6c6e181b0e",
+          "code": ""
+        }
+      ],
+      "size": "76.7 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Blizzard Entertainment, Inc.",
+      "releaseDate": "2021-09-23",
+      "description": "经典《暗黑破坏神2》及资料片「毁灭之王」的全面重制版，以3D视觉效果与高清音效重现圣休亚瑞，保留原版玩法并支持跨平台进度共享。",
+      "note": "豪华中文版，全DLC",
+      "buyUrl": "https://store.steampowered.com/app/1147550/"
+    },
+    {
+      "id": "bbodezhimen3v4117398727zhongwenhaohu",
+      "title": "B博德之门3 v4.1.1.7398727 中文豪华版 全DLC",
+      "category": "角色扮演（RPG）",
+      "tags": [
+        "龙与地下城",
+        "回合制",
+        "剧情丰富",
+        "选择导向",
+        "多人合作"
+      ],
+      "cover": "images/covers/bbodezhimen3v4117398727zhongwenhaohu.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS5",
+        "Xbox Series X|S"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/b1c5ac6a2edc",
+          "code": ""
+        }
+      ],
+      "size": "125 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Larian Studios",
+      "releaseDate": "2023-08-03",
+      "description": "基于《龙与地下城》规则的角色扮演游戏，以极高的自由度和深度选择分支著称，玩家的每个决定都将塑造费伦大陆的冒险故事。",
+      "note": "中文豪华版，全DLC",
+      "buyUrl": "https://store.steampowered.com/app/1086940/"
+    },
+    {
+      "id": "bbilanhuanxiangrelinkv206haohuazhong",
+      "title": "B碧蓝幻想：Relink v2.0.6 豪华中文版 全DLC 新增DLC 无尽黄昏",
+      "category": "动作角色扮演（ARPG）",
+      "tags": [
+        "日系角色扮演",
+        "多人联机",
+        "砍杀",
+        "剧情丰富",
+        "动漫风格"
+      ],
+      "cover": "images/covers/bbilanhuanxiangrelinkv206haohuazhong.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS",
+        "Switch"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/1938ca2e316b",
+          "code": ""
+        }
+      ],
+      "size": "89.1 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Cygames, Inc.",
+      "releaseDate": "2024-01-31",
+      "description": "可4人联机的王道动作RPG。众多动作风格独特的角色登场，通过「连锁攻击」「奥义连锁」华丽击溃敌人，兼具深度战斗与个性化养成。",
+      "note": "豪华中文版，全DLC，新增DLC「无尽黄昏」（Endless Ragnarok，2026-07-09上线）",
+      "buyUrl": "https://store.steampowered.com/app/881020/"
+    },
+    {
+      "id": "bigwalkv147zhongwenlianjiban",
+      "title": "Big Walk v1.4.7 中文联机版",
+      "category": "冒险 / 多人合作",
+      "tags": [
+        "合作",
+        "开放世界",
+        "探索",
+        "休闲",
+        "边走边聊"
+      ],
+      "cover": "images/covers/bigwalkv147zhongwenlianjiban.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS5",
+        "Switch 2",
+        "Mac"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/6361e82fa744",
+          "code": ""
+        }
+      ],
+      "size": "2.9 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "House House",
+      "releaseDate": "2026-08-04",
+      "description": "《无题大鹅模拟》主创团队带来的在线合作「边走边聊」游戏。与好友在广阔世界中闲逛、迷路，用对讲机、激光笔保持沟通，享受无任务的自由探索。",
+      "note": "中文联机版，支持2-12人跨平台联机",
+      "buyUrl": "https://store.steampowered.com/app/1478500/"
+    },
+    {
+      "id": "cchaojijiqirendazhanyv141zuixinbanbe",
+      "title": "C超级机器人大战Y v1.4.1 最新版本 全DLC",
+      "category": "策略角色扮演（SRPG）",
+      "tags": [
+        "回合制策略",
+        "机甲",
+        "动漫",
+        "模拟",
+        "剧情"
+      ],
+      "cover": "images/covers/cchaojijiqirendazhanyv141zuixinbanbe.svg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS5",
+        "Switch"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/92ceb44b1714",
+          "code": ""
+        }
+      ],
+      "size": "58.1 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Bandai Namco Forge Digitals Inc.",
+      "releaseDate": "2025-08-28",
+      "description": "让各部动画作品中的机器人超越作品界线齐聚一堂、与共同敌人战斗的模拟RPG。以「右为灾厄、左则毁灭」为基调，新增辅助连结系统。",
+      "note": "最新版本，全DLC",
+      "buyUrl": "https://store.steampowered.com/app/1909950/"
+    },
+    {
+      "id": "ccikexintiaoheiqijiyizhongzhiv38banf",
+      "title": "C刺客信条 黑旗 记忆重置 v38版 非虚拟机 解压即玩",
+      "category": "动作冒险",
+      "tags": [
+        "海盗",
+        "潜行",
+        "开放世界",
+        "刺客",
+        "海战"
+      ],
+      "cover": "images/covers/ccikexintiaoheiqijiyizhongzhiv38banf.svg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS5",
+        "Xbox Series X|S"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/7675429ea668",
+          "code": ""
+        }
+      ],
+      "size": "53.8 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Ubisoft Singapore（育碧新加坡工作室）",
+      "releaseDate": "2026-07-09",
+      "description": "基于全新Anvil引擎从零构建的《黑旗》完全重制版。扮演海盗船长爱德华·肯威驰骋加勒比海，体验重做的战斗、潜行、跑酷与海战，支持全程中文配音。",
+      "note": "v38版，非虚拟机，解压即玩",
+      "buyUrl": "https://store.steampowered.com/app/3751950/"
+    },
+    {
+      "id": "ccikexintiaoyingv38haohuazhongwenban",
+      "title": "C刺客信条：影 v38豪华中文版 非虚拟机 解压即玩 全DLC",
+      "category": "动作冒险",
+      "tags": [
+        "开放世界",
+        "潜行",
+        "日本战国",
+        "刺客",
+        "剧情丰富"
+      ],
+      "cover": "images/covers/ccikexintiaoyingv38haohuazhongwenban.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS5",
+        "Xbox",
+        "Switch 2"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/865932ded094",
+          "code": ""
+        }
+      ],
+      "size": "150.8 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Ubisoft Quebec",
+      "releaseDate": "2025-03-20",
+      "description": "以战国时代日本为舞台，玩家可自由选择扮演忍者奈绪江或武士弥助，体验潜行暗杀与正面战场两种截然不同的玩法。",
+      "note": "豪华中文版，非虚拟机，解压即玩，全DLC",
+      "buyUrl": "https://store.steampowered.com/app/3159330/"
+    },
+    {
+      "id": "cchengshitianjixian12heji",
+      "title": "C城市天际线1+2合集",
+      "category": "模拟经营（城市营造）",
+      "tags": [
+        "城市营造",
+        "模拟",
+        "建造",
+        "沙盒",
+        "管理"
+      ],
+      "cover": "images/covers/cchengshitianjixian12heji.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/51f563759ff3",
+          "code": ""
+        }
+      ],
+      "size": "99.9 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Colossal Order / Iceflake Studios",
+      "releaseDate": "2015-03-10",
+      "description": "包含《城市：天际线》与《都市：天际线2》两代作品。从零打造并管理繁华都市，体验深度模拟与栩栩如生的经济系统。",
+      "note": "1+2合集",
+      "buyUrl": "https://store.steampowered.com/app/255710/"
+    },
+    {
+      "id": "cchengshitianjixian2v164f1haohuazhon",
+      "title": "C城市天际线2 v1.6.4f1 豪华中文版 全DLC",
+      "category": "模拟经营（城市营造）",
+      "tags": [
+        "城市营造",
+        "模拟",
+        "建造",
+        "沙盒",
+        "经济"
+      ],
+      "cover": "images/covers/cchengshitianjixian2v164f1haohuazhon.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS5",
+        "Xbox Series X|S"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/7d35395254a4",
+          "code": ""
+        }
+      ],
+      "size": "88.7 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Iceflake Studios, Colossal Order",
+      "releaseDate": "2023-10-24",
+      "description": "见证一座城市拔地而起，在深度模拟与活跃经济系统的支撑下，挑战创造力与问题解决能力的极限，以前所未有的规模打造梦想之都。",
+      "note": "豪华中文版，全DLC",
+      "buyUrl": "https://store.steampowered.com/app/949230/"
+    },
+    {
+      "id": "cchengshitianjixian2v162f1haohuazhon",
+      "title": "C城市：天际线2 v1.6.2F1 豪华中文版 全DLC 新增：拓展通行证2",
+      "category": "模拟经营（城市营造）",
+      "tags": [
+        "城市营造",
+        "模拟",
+        "建造",
+        "沙盒",
+        "经济"
+      ],
+      "cover": "images/covers/cchengshitianjixian2v162f1haohuazhon.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS5",
+        "Xbox Series X|S"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/b2d6a13b5d59",
+          "code": ""
+        }
+      ],
+      "size": "88.6 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Iceflake Studios, Colossal Order",
+      "releaseDate": "2023-10-24",
+      "description": "见证一座城市拔地而起，在深度模拟与活跃经济系统的支撑下，挑战创造力与问题解决能力的极限，以前所未有的规模打造梦想之都。",
+      "note": "豪华中文版，全DLC，新增「拓展通行证2」",
+      "buyUrl": "https://store.steampowered.com/app/949230/"
+    },
+    {
+      "id": "ddongwuyuanzhixingv1202haohuazhongwe",
+      "title": "D 动物园之星 v1.20.2 豪华中文版 全DLC",
+      "category": "模拟经营",
+      "tags": [
+        "动物园",
+        "模拟",
+        "建造",
+        "沙盒",
+        "动物"
+      ],
+      "cover": "images/covers/ddongwuyuanzhixingv1202haohuazhongwe.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS",
+        "Xbox"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/cdc63d777498",
+          "code": ""
+        }
+      ],
+      "size": "20.9 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Frontier Developments",
+      "releaseDate": "2019-11-05",
+      "description": "建造细致入微的栖息地、管理自己的动物园，欣赏会思考、有情感并探索所创造世界的真实动物。",
+      "note": "豪华中文版，全DLC",
+      "buyUrl": "https://store.steampowered.com/app/703080/"
+    },
+    {
+      "id": "ddiguoshidai3juedingbanv1001918309ha",
+      "title": "D帝国时代3决定版 v100.19.18309 豪华中文版 全DLC 新增DLC波罗的海列强",
+      "category": "即时战略（RTS）",
+      "tags": [
+        "即时战略",
+        "历史",
+        "策略",
+        "多人",
+        "4K重制"
+      ],
+      "cover": "images/covers/ddiguoshidai3juedingbanv1001918309ha.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/67e0e5858d93",
+          "code": ""
+        }
+      ],
+      "size": "37.4 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "World's Edge, Tantalus Media, Forgotten Empires",
+      "releaseDate": "2020-10-15",
+      "description": "《帝国时代3》的终极重制版，画质与音乐全面重制，集合此前所有扩展包并加入全新文明、历史战役与战争艺术挑战任务。",
+      "note": "豪华中文版，全DLC，新增DLC「波罗的海列强」（2026-09-11）",
+      "buyUrl": "https://store.steampowered.com/app/933110/"
+    },
+    {
+      "id": "ddiguoshidai4v170zuixinbanbenhaohuaz",
+      "title": "D帝国时代4 v17.0 最新版本 豪华中文版 全DLC 新增DLC：北方掠夺者",
+      "category": "即时战略（RTS）",
+      "tags": [
+        "即时战略",
+        "历史",
+        "中世纪",
+        "基地建设",
+        "多人"
+      ],
+      "cover": "images/covers/ddiguoshidai4v170zuixinbanbenhaohuaz.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "Xbox"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/6c0239cbb4d3",
+          "code": ""
+        }
+      ],
+      "size": "63.1 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "World's Edge, Relic Entertainment, Forgotten Empires, Climax Studios",
+      "releaseDate": "2021-10-28",
+      "description": "以中世纪为历史舞台，统率英格兰、法兰西、中国、蒙古等文明跨越数百年发展征伐，亲历诺曼征服、百年战争等史实战役。",
+      "note": "豪华中文版，全DLC，新增DLC「北方掠夺者」",
+      "buyUrl": "https://store.steampowered.com/app/1466860/"
+    },
+    {
+      "id": "ddongwuyuanzhixing2haohuazhongwenban",
+      "title": "D动物园之星2 豪华中文版 全DLC",
+      "category": "模拟经营",
+      "tags": [
+        "动物园",
+        "模拟",
+        "策略",
+        "沙盒",
+        "动物"
+      ],
+      "cover": "images/covers/ddongwuyuanzhixing2haohuazhongwenban.svg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS5",
+        "Xbox Series X|S"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/628df539d095",
+          "code": ""
+        }
+      ],
+      "size": "25.1 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Frontier Developments",
+      "releaseDate": "2026-10-13",
+      "description": "打造环球特色动物园，守护自然生灵百态，保育陆生、水生与飞行物种，更能跳出园区边界，将动物放归广袤的野生动物保护区。",
+      "note": "豪华中文版，全DLC",
+      "buyUrl": "https://store.steampowered.com/app/3219030/"
+    },
+    {
+      "id": "ddiyikuangzhanshikazanv38feixunijiji",
+      "title": "D第一狂战士：卡赞 v38 非虚拟机 解压即玩",
+      "category": "动作角色扮演（ARPG）",
+      "tags": [
+        "类魂",
+        "硬核",
+        "砍杀",
+        "动作RPG",
+        "剧情"
+      ],
+      "cover": "images/covers/ddiyikuangzhanshikazanv38feixunijiji.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS5",
+        "Xbox Series X|S"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/4a3b79d37795",
+          "code": ""
+        }
+      ],
+      "size": "25.1 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Neople",
+      "releaseDate": "2025-03-27",
+      "description": "扮演战胜死亡的佩洛斯帝国大将军卡赞，调查导致自己没落的事件并向敌人复仇的硬核动作角色扮演游戏。",
+      "note": "v38版，非虚拟机，解压即玩",
+      "buyUrl": "https://store.steampowered.com/app/2680010/"
+    },
+    {
+      "id": "fc26v165haohuazhongwenbanquandlc",
+      "title": "FC 26 v1.6.5 豪华中文版 全DLC",
+      "category": "体育竞技（足球）",
+      "tags": [
+        "足球",
+        "多人",
+        "模拟",
+        "竞技",
+        "生涯模式"
+      ],
+      "cover": "images/covers/fc26v165haohuazhongwenbanquandlc.svg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS",
+        "Xbox",
+        "Switch"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/6791470333c3",
+          "code": ""
+        }
+      ],
+      "size": "57.4 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "EA Canada, EA Romania",
+      "releaseDate": "2025-09-25",
+      "description": "EA足球系列新作。体验48队国际锦标赛、主题经理实时挑战，并在球员生涯模式中启用新的国际超级球星与英雄。",
+      "note": "豪华中文版，全DLC",
+      "buyUrl": "https://store.steampowered.com/app/3405690/"
+    },
+    {
+      "id": "fc27zuixinv120banbenyichudjiamifeixu",
+      "title": "FC 27 最新v1.2.0版本 移除D加密 非虚拟机",
+      "category": "体育竞技（足球）",
+      "tags": [
+        "足球",
+        "多人",
+        "模拟",
+        "街球",
+        "竞技"
+      ],
+      "cover": "images/covers/fc27zuixinv120banbenyichudjiamifeixu.svg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS",
+        "Xbox",
+        "Switch 2"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/a9b2a888148a",
+          "code": ""
+        }
+      ],
+      "size": "68 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "EA CANADA, EA Romania",
+      "releaseDate": "2026-09-24",
+      "description": "走进街头与球场结合的The Grounds，在每一种模式中感受更强的操控；全新FUT画廊可收集和展示球员卡牌。",
+      "note": "移除D加密，非虚拟机",
+      "buyUrl": "https://store.steampowered.com/app/4080220/"
+    },
+    {
+      "id": "ffangzhoushengcunfeishengv9322haohua",
+      "title": "F方舟：生存飞升 v93.22 豪华中文版 全DLC",
+      "category": "生存冒险",
+      "tags": [
+        "生存",
+        "恐龙",
+        "开放世界",
+        "基地建设",
+        "多人"
+      ],
+      "cover": "images/covers/ffangzhoushengcunfeishengv9322haohua.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows（抢先体验）"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/aba3ac710351",
+          "code": ""
+        }
+      ],
+      "size": "176.9 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Studio Wildcard, Grove Street Games, Instinct Games",
+      "releaseDate": "2023-10-25",
+      "description": "采用虚幻引擎5重新设计的《方舟》。组建部落、驯养繁殖数百种恐龙与原始生物，探索、制作、建造，一路进发至食物链顶端。",
+      "note": "豪华中文版，全DLC",
+      "buyUrl": "https://store.steampowered.com/app/2399830/"
+    },
+    {
+      "id": "gguaiwulierenhuangyev1042huangjinban",
+      "title": "G 怪物猎人：荒野 v1.042 黄金版 全DLC",
+      "category": "动作狩猎",
+      "tags": [
+        "狩猎",
+        "动作",
+        "多人联机",
+        "开放世界",
+        "龙"
+      ],
+      "cover": "images/covers/gguaiwulierenhuangyev1042huangjinban.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS5",
+        "Xbox Series X|S"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/2f5e354782da",
+          "code": ""
+        }
+      ],
+      "size": "146 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "CAPCOM Co., Ltd.",
+      "releaseDate": "2025-02-27",
+      "description": "加入调查队进入封禁之地展开神秘任务冒险，通过狩猎获取素材打造更强武器与防具，体验进化的狩猎动作与无缝的沉浸式游戏体验。",
+      "note": "黄金版，全DLC",
+      "buyUrl": "https://store.steampowered.com/app/2246340/"
+    },
+    {
+      "id": "ggangtiexiongxin4v12000zuixinbanbenq",
+      "title": "G钢铁雄心4 v1.20.0.0 最新版本 全DLC 新增DLC：至死方休",
+      "category": "策略模拟（大战略）",
+      "tags": [
+        "策略",
+        "历史",
+        "二战",
+        "大战略",
+        "多人"
+      ],
+      "cover": "images/covers/ggangtiexiongxin4v12000zuixinbanbenq.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/9835329d5843",
+          "code": ""
+        }
+      ],
+      "size": "5.9 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Paradox Development Studio",
+      "releaseDate": "2016-06-06",
+      "description": "以第二次世界大战为舞台的大战略游戏，可指挥世界上任意一个国家，以政治、经济、外交与军事手段赢得胜利。",
+      "note": "最新版本，全DLC，新增DLC「至死方休」",
+      "buyUrl": "https://store.steampowered.com/app/394360/"
+    },
+    {
+      "id": "gguiwuzhejianzhidaov38feixunijibanji",
+      "title": "G鬼武者：剑之道 v38 非虚拟机版 解压即玩",
+      "category": "动作冒险",
+      "tags": [
+        "动作",
+        "武士",
+        "鬼武者",
+        "砍杀",
+        "剧情"
+      ],
+      "cover": "images/covers/gguiwuzhejianzhidaov38feixunijibanji.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS5",
+        "Xbox Series X|S",
+        "Switch 2"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/565a7e385774",
+          "code": ""
+        }
+      ],
+      "size": "55 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "CAPCOM Co., Ltd.",
+      "releaseDate": "2026-09-03",
+      "description": "佩戴鬼之手套的武士在京都对抗不断逼近的幻魔威胁，在激烈血腥的战斗中寻找自己战斗的意义。",
+      "note": "v38版，非虚拟机版，解压即玩",
+      "buyUrl": "https://store.steampowered.com/app/2638890/"
+    },
+    {
+      "id": "gta5",
+      "title": "GTA5",
+      "category": "动作冒险（开放世界）",
+      "tags": [
+        "开放世界",
+        "犯罪",
+        "剧情丰富",
+        "多人",
+        "沙盒"
+      ],
+      "cover": "images/covers/gta5.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS",
+        "Xbox"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/5da804a284c2",
+          "code": ""
+        }
+      ],
+      "size": "210.6 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Rockstar North",
+      "releaseDate": "2015-04-14",
+      "description": "街头骗子、退休银行劫匪与可怕的疯子被卷入犯罪世界，必须在洛圣都与布雷恩郡劫掠求生；另含内容丰富的GTA在线模式。",
+      "note": "无",
+      "buyUrl": "https://store.steampowered.com/app/271590/"
+    },
+    {
+      "id": "hhuogewocizhiyiv38feixunijizuixinban",
+      "title": "H霍格沃茨之遗 v38 非虚拟机最新版",
+      "category": "动作角色扮演（ARPG）",
+      "tags": [
+        "开放世界",
+        "魔法",
+        "哈利波特",
+        "剧情丰富",
+        "单人"
+      ],
+      "cover": "images/covers/hhuogewocizhiyiv38feixunijizuixinban.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS",
+        "Xbox",
+        "Switch"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/16a6ece62e3f",
+          "code": ""
+        }
+      ],
+      "size": "68.8 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Avalanche Software",
+      "releaseDate": "2023-02-10",
+      "description": "以1800年代魔法世界为舞台的沉浸式开放世界动作RPG。扮演掌握古老秘密的学生，亲手书写属于自己的魔法世界传奇。",
+      "note": "v38版，非虚拟机最新版",
+      "buyUrl": "https://store.steampowered.com/app/990080/"
+    },
+    {
+      "id": "hhuimiezhanshiheianshidaihaohuazhong",
+      "title": "H毁灭战士：黑暗时代 豪华中文版 全DLC 新增DLC：启示录",
+      "category": "第一人称射击（FPS）",
+      "tags": [
+        "FPS",
+        "动作",
+        "屠魔",
+        "黑暗奇幻",
+        "单人"
+      ],
+      "cover": "images/covers/hhuimiezhanshiheianshidaihaohuazhong.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS5",
+        "Xbox Series X|S"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/5b9c9a460511",
+          "code": ""
+        }
+      ],
+      "size": "96.1 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "id Software",
+      "releaseDate": "2025-05-15",
+      "description": "《毁灭战士(2016)》与《毁灭战士：永恒》的前传，讲述毁灭战士之怒的起源。新增攻防一体的「盾锯」与腕甲近战连击系统。",
+      "note": "豪华中文版，全DLC，新增DLC「启示录」（Revelations）",
+      "buyUrl": "https://store.steampowered.com/app/3017860/"
+    },
+    {
+      "id": "hheishenhuawukonghaohuazhongwenbanda",
+      "title": "H黑神话：悟空 豪华中文版 打包XG器（解压即玩版 非虚拟机）",
+      "category": "动作角色扮演（ARPG）",
+      "tags": [
+        "神话",
+        "动作RPG",
+        "类魂",
+        "中国风",
+        "剧情丰富"
+      ],
+      "cover": "images/covers/hheishenhuawukonghaohuazhongwenbanda.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS5",
+        "Xbox Series X|S"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/13b344696868",
+          "code": ""
+        }
+      ],
+      "size": "139.8 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Game Science（游戏科学）",
+      "releaseDate": "2024-08-20",
+      "description": "以中国神话为背景的动作角色扮演游戏。扮演「天命人」探寻昔日传奇的真相，踏上充满危险与惊奇的西游之路。",
+      "note": "豪华中文版，打包XG器（解压即玩版，非虚拟机）",
+      "buyUrl": "https://store.steampowered.com/app/2358720/"
+    },
+    {
+      "id": "hhongsejingjiequanxilieheji",
+      "title": "H红色警戒 全系列合集",
+      "category": "即时战略（RTS）",
+      "tags": [
+        "即时战略",
+        "红色警戒",
+        "怀旧",
+        "经典",
+        "多人"
+      ],
+      "cover": "images/covers/hhongsejingjiequanxilieheji.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/1043f1fa65f1",
+          "code": ""
+        }
+      ],
+      "size": "31.7 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Westwood Studios / Petroglyph",
+      "releaseDate": "1996-10（初代",
+      "description": "收录《红色警戒》系列经典作品与重制内容，体验冷战架空背景下盟军与苏军的即时战略对决。",
+      "note": "全系列合集",
+      "buyUrl": "https://store.steampowered.com/app/1213210/"
+    },
+    {
+      "id": "hhuanshoupaluv105102999zuixinbanben",
+      "title": "H幻兽帕鲁 v1.0.5.102999 最新版本",
+      "category": "生存建造 / 多人联机",
+      "tags": [
+        "生存",
+        "开放世界",
+        "生物收集",
+        "多人",
+        "建造"
+      ],
+      "cover": "images/covers/hhuanshoupaluv105102999zuixinbanben.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "Xbox",
+        "PS5"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/4e1caaf48e83",
+          "code": ""
+        }
+      ],
+      "size": "29.3 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Pocketpair",
+      "releaseDate": "2024-01-19",
+      "description": "与神秘生物「帕鲁」一起战斗、种田、建造和工作的多人开放世界生存制作游戏。帕鲁既是忠实伙伴，也可能成为危急时刻的食物。",
+      "note": "最新版本（1.0正式版）",
+      "buyUrl": "https://store.steampowered.com/app/1623730/"
+    },
+    {
+      "id": "hhongseshamozengqiangbanv20400haohua",
+      "title": "H红色沙漠：增强版 v2.04.00 豪华中文版 新增DLC：未知征途",
+      "category": "开放世界动作冒险",
+      "tags": [
+        "开放世界",
+        "动作冒险",
+        "奇幻",
+        "剧情",
+        "单人"
+      ],
+      "cover": "images/covers/hhongseshamozengqiangbanv20400haohua.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS5",
+        "Xbox Series X|S",
+        "Mac"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/3ef46e546fcb",
+          "code": ""
+        }
+      ],
+      "size": "229.2 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Pearl Abyss",
+      "releaseDate": "2026-03-19",
+      "description": "以皮威尔大陆为舞台的开放世界动作冒险。扮演克里夫，在灰鬃团遭袭后重建氏族、找回失去的故乡并拯救面临巨大威胁的大地。",
+      "note": "增强版，豪华中文版，新增DLC「未知征途」",
+      "buyUrl": "https://store.steampowered.com/app/3321460/"
+    },
+    {
+      "id": "hhuangyedabiaoke2jiushuv149150zhongj",
+      "title": "H荒野大镖客2救赎 v1491.50 终极版官方中文",
+      "category": "动作冒险（开放世界）",
+      "tags": [
+        "开放世界",
+        "西部",
+        "剧情丰富",
+        "拟真",
+        "多人"
+      ],
+      "cover": "images/covers/hhuangyedabiaoke2jiushuv149150zhongj.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS",
+        "Xbox"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/3ecf8c5cd5a4",
+          "code": ""
+        }
+      ],
+      "size": "110.3 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Rockstar Games",
+      "releaseDate": "2019-12-05",
+      "description": "亚瑟·摩根与范德林德帮众是被追捕的亡命之徒，必须在广袤蛮荒的腹地劫掠、偷窃与战斗以求生存；含Red Dead Online。",
+      "note": "终极版，官方中文",
+      "buyUrl": "https://store.steampowered.com/app/1174180/"
+    },
+    {
+      "id": "jjinbiqiusheng2v0603",
+      "title": "J禁闭求生2 v0.6.0.3",
+      "category": "生存冒险",
+      "tags": [
+        "生存",
+        "合作",
+        "开放世界",
+        "基地建设",
+        "制作"
+      ],
+      "cover": "images/covers/jjinbiqiusheng2v0603.svg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "Xbox"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/0bad19e5dba6",
+          "code": ""
+        }
+      ],
+      "size": "36.8 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Obsidian Entertainment, Eidos-Montréal",
+      "releaseDate": "2025-07-29",
+      "description": "两年前你缩小成了蚂蚁大小，现在世界变得更大。在这款单人/合作开放世界生存冒险中制作武器护甲、建造基地，并驾驶载具探索后院。",
+      "note": "无",
+      "buyUrl": "https://store.steampowered.com/app/2661300/"
+    },
+    {
+      "id": "jjializhaidixuanan",
+      "title": "J加利宅邸悬案",
+      "category": "悬疑解谜 / 视觉小说",
+      "tags": [
+        "悬疑",
+        "解谜",
+        "推理",
+        "剧情丰富",
+        "视觉小说"
+      ],
+      "cover": "images/covers/jjializhaidixuanan.svg",
+      "screenshots": [],
+      "platform": [
+        "Windows"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/a9f27bce46dc",
+          "code": ""
+        }
+      ],
+      "size": "1.1 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "William Rous, Evil Trout Inc.",
+      "releaseDate": "2026-07-14",
+      "description": "1936年加利宅邸发生了一起极为可怕的案件。数十年后，利用一台能揭示「过去回响」的奇特装置，玩家必须揭开惨案背后尘封已久的真相。",
+      "note": "无",
+      "buyUrl": "https://store.steampowered.com/app/3641000/"
+    },
+    {
+      "id": "jjiangshihuimiegongchengdanjilianjiv",
+      "title": "J僵尸毁灭工程 单机+联机 v42.22.2",
+      "category": "生存角色扮演",
+      "tags": [
+        "僵尸",
+        "生存",
+        "开放世界",
+        "硬核",
+        "沙盒"
+      ],
+      "cover": "images/covers/jjiangshihuimiegongchengdanjilianjiv.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/5398c2c2d7ec",
+          "code": ""
+        }
+      ],
+      "size": "4.8 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "The Indie Stone",
+      "releaseDate": "2013-11-08",
+      "description": "硬核僵尸生存RPG。无论单人还是多人，都要搜刮、建造、制作、战斗、种田与钓鱼，在诺克斯郡挣扎求生——一次咬伤足致命。",
+      "note": "单机+联机",
+      "buyUrl": "https://store.steampowered.com/app/108600/"
+    },
+    {
+      "id": "jjietoubawang6v20201000haohuazhongwe",
+      "title": "J街头霸王6 v2.0201.000 豪华中文版 全DLC",
+      "category": "格斗",
+      "tags": [
+        "格斗",
+        "街机",
+        "多人",
+        "竞技",
+        "剧情模式"
+      ],
+      "cover": "images/covers/jjietoubawang6v20201000haohuazhongwe.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS",
+        "Xbox",
+        "Switch 2"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/88384476e144",
+          "code": ""
+        }
+      ],
+      "size": "95.9 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "CAPCOM Co., Ltd.",
+      "releaseDate": "2023-06-02",
+      "description": "卡普空格斗系列最新作，包含环球游历、对战广场与格斗中心三大模式，是全球玩家同场竞技的格斗舞台。",
+      "note": "豪华中文版，全DLC（版本 v2.0201.000）",
+      "buyUrl": "https://store.steampowered.com/app/1364780/"
+    },
+    {
+      "id": "jjietoubawang6v20301000haohuazhongwe",
+      "title": "J街头霸王6 v2.0301.000 豪华中文版 全DLC",
+      "category": "格斗",
+      "tags": [
+        "格斗",
+        "街机",
+        "多人",
+        "竞技",
+        "剧情模式"
+      ],
+      "cover": "images/covers/jjietoubawang6v20301000haohuazhongwe.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS",
+        "Xbox",
+        "Switch 2"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/822675226dcb",
+          "code": ""
+        }
+      ],
+      "size": "101.3 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "CAPCOM Co., Ltd.",
+      "releaseDate": "2023-06-02",
+      "description": "卡普空格斗系列最新作，包含环球游历、对战广场与格斗中心三大模式，是全球玩家同场竞技的格斗舞台。",
+      "note": "豪华中文版，全DLC（版本 v2.0301.000）",
+      "buyUrl": "https://store.steampowered.com/app/1364780/"
+    },
+    {
+      "id": "jjianxingv141haohuazhongwenbanquandl",
+      "title": "J剑星 v1.4.1 豪华中文版 全DLC 打包XG器（解压即玩，非虚拟机）",
+      "category": "动作冒险",
+      "tags": [
+        "动作",
+        "类魂",
+        "砍杀",
+        "女主角",
+        "单人"
+      ],
+      "cover": "images/covers/jjianxingv141haohuazhongwenbanquandl.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS5"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/a850154f6509",
+          "code": ""
+        }
+      ],
+      "size": "122.5 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "SHIFT UP Corporation",
+      "releaseDate": "2025-06-11",
+      "description": "末日后动作冒险游戏。扮演伊芙拯救濒临灭绝的人类，体验激烈战斗与峰回路转的剧情，揭开地球沦亡的秘密。",
+      "note": "豪华中文版，全DLC，打包XG器（解压即玩，非虚拟机）",
+      "buyUrl": "https://store.steampowered.com/app/3489700/"
+    },
+    {
+      "id": "jjixianjingsudipingxian6v461691quand",
+      "title": "J极限竞速：地平线6 v461.691 全DLC",
+      "category": "竞速",
+      "tags": [
+        "竞速",
+        "开放世界",
+        "驾驶",
+        "多人",
+        "汽车"
+      ],
+      "cover": "images/covers/jjixianjingsudipingxian6v461691quand.svg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "Xbox Series X|S",
+        "PS5"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/794e2ad93154",
+          "code": ""
+        }
+      ],
+      "size": "132 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Playground Games",
+      "releaseDate": "2026-05-18",
+      "description": "驾驶超过550辆真实存在的车辆探索日本绝美风光，建造山谷地产、购买梦幻住宅，在地平线嘉年华成为竞速传奇。",
+      "note": "全DLC",
+      "buyUrl": "https://store.steampowered.com/app/2483190/"
+    },
+    {
+      "id": "kkongbulimingv1311quandlchaohuazhong",
+      "title": "K恐怖黎明 v1.3.1.1 全DLC 豪华中文版",
+      "category": "动作角色扮演（ARPG）",
+      "tags": [
+        "ARPG",
+        "砍杀",
+        "黑暗奇幻",
+        "刷宝",
+        "单人"
+      ],
+      "cover": "images/covers/kkongbulimingv1311quandlchaohuazhong.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "Xbox"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/8f2a32a8813b",
+          "code": ""
+        }
+      ],
+      "size": "11.7 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Crate Entertainment",
+      "releaseDate": "2016-02-25",
+      "description": "进入人类濒临灭绝的末日奇幻世界，体验复杂角色培养、数百件独特物品、制作工艺以及充满抉择与后果的任务。",
+      "note": "全DLC，豪华中文版",
+      "buyUrl": "https://store.steampowered.com/app/219990/"
+    },
+    {
+      "id": "kkailuoyouxibaibudahejipcanzhuobansw",
+      "title": "K开罗游戏百部大合集（PC+安卓版+switch）",
+      "category": "模拟经营合集",
+      "tags": [
+        "像素风",
+        "模拟经营",
+        "沙盒",
+        "休闲",
+        "合集"
+      ],
+      "cover": "images/covers/kkailuoyouxibaibudahejipcanzhuobansw.svg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "Android",
+        "Switch（模拟器）"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/60ba39fdebdb",
+          "code": ""
+        }
+      ],
+      "size": "24.1 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Kairosoft（开罗游戏）",
+      "releaseDate": "无统一发售日期（多款",
+      "description": "收录开罗游戏上百款经典像素模拟经营作品，题材涵盖开店经营、城市建设、学校与体育俱乐部管理等，以「易上手、耐玩」著称。",
+      "note": "PC+安卓版+Switch三平台合集"
+    },
+    {
+      "id": "llierenhuangyedezhaohuanzuixinbanben",
+      "title": "L猎人：荒野的召唤 最新版本 内置全DLC 新增：西部怀旧武器包",
+      "category": "模拟狩猎",
+      "tags": [
+        "狩猎",
+        "开放世界",
+        "模拟",
+        "探索",
+        "多人合作"
+      ],
+      "cover": "images/covers/llierenhuangyedezhaohuanzuixinbanben.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS",
+        "Xbox"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/6c4e7ce96d95",
+          "code": ""
+        }
+      ],
+      "size": "76.3 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Expansive Worlds",
+      "releaseDate": "2017-02-16",
+      "description": "在真实感十足的动态开放世界中追踪猎物、体验无脚本的遭遇，可独自完成单人战役或与好友共享终极狩猎体验。",
+      "note": "内置全DLC，新增「西部怀旧武器包」",
+      "buyUrl": "https://store.steampowered.com/app/518790/"
+    },
+    {
+      "id": "llongzhuchaoyuzhou2v127zuixinbanbenq",
+      "title": "L龙珠超宇宙2 v1.27 最新版本 全DLC",
+      "category": "动作格斗",
+      "tags": [
+        "格斗",
+        "动漫",
+        "龙珠",
+        "角色自定义",
+        "多人"
+      ],
+      "cover": "images/covers/llongzhuchaoyuzhou2v127zuixinbanbenq.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS",
+        "Xbox",
+        "Switch"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/8ab062c7a848",
+          "code": ""
+        }
+      ],
+      "size": "34.4 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "QLOC / Dimps",
+      "releaseDate": "2016-10-28",
+      "description": "以《龙珠》动画为基础的动作格斗游戏。扮演时空巡逻者修正不断被改变的历史，支持自创原创角色与海量DLC角色。",
+      "note": "最新版本，全DLC",
+      "buyUrl": "https://store.steampowered.com/app/454650/"
+    },
+    {
+      "id": "llongzhijianjuexingv111zuixinbanbenq",
+      "title": "L龙之剑：觉醒 v1.1.1 最新版本 全DLC",
+      "category": "动作角色扮演（ARPG）",
+      "tags": [
+        "开放世界",
+        "动漫风格",
+        "动作RPG",
+        "奇幻",
+        "联机合作"
+      ],
+      "cover": "images/covers/llongzhijianjuexingv111zuixinbanbenq.svg",
+      "screenshots": [],
+      "platform": [
+        "Windows"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/5ba066d33949",
+          "code": ""
+        }
+      ],
+      "size": "16.4 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Hound13 Inc.",
+      "releaseDate": "2026-07-22",
+      "description": "虚幻引擎5打造的动画风格开放世界「奥尔比斯大陆」。招募个性十足的伙伴，施展异常状态联携战斗，拯救苏醒之龙威胁下的世界。",
+      "note": "最新版本，全DLC",
+      "buyUrl": "https://store.steampowered.com/app/4570720/"
+    },
+    {
+      "id": "llongzhixintiao2zuixinbanbenquandlcx",
+      "title": "L龙之信条2 最新版本 全DLC 新增DLC：黑暗觉者",
+      "category": "动作角色扮演（ARPG）",
+      "tags": [
+        "开放世界",
+        "奇幻",
+        "动作RPG",
+        "随从系统",
+        "单人"
+      ],
+      "cover": "images/covers/llongzhixintiao2zuixinbanbenquandlcx.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS5",
+        "Xbox Series X|S",
+        "Switch 2"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/a05eeb49ce01",
+          "code": ""
+        }
+      ],
+      "size": "88.5 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "CAPCOM Co., Ltd.",
+      "releaseDate": "2024-03-22",
+      "description": "与追随者一同踏上讨伐恶龙的王道奇幻冒险。借助最新画面、物理计算与AI，自由定制觉醒者外观、职业与队伍，书写独一无二的旅程。",
+      "note": "最新版本，全DLC，新增DLC「黑暗觉者」",
+      "buyUrl": "https://store.steampowered.com/app/2054970/"
+    },
+    {
+      "id": "mmufaqiushengv1107zhongwenlianjiban",
+      "title": "M木筏求生 v1.1.07 中文联机版",
+      "category": "生存冒险",
+      "tags": [
+        "生存",
+        "海洋",
+        "建造",
+        "多人联机",
+        "沙盒"
+      ],
+      "cover": "images/covers/mmufaqiushengv1107zhongwenlianjiban.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "Xbox",
+        "Switch"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/5ba7673ec468",
+          "code": ""
+        }
+      ],
+      "size": "3.2 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Redbeet Interactive",
+      "releaseDate": "2022-06-20",
+      "description": "在茫茫大海上用钩子收集漂流物、扩建木筏，抵御鲨鱼与饥饿，独自或与朋友一起展开史诗般的海洋生存冒险。",
+      "note": "中文联机版",
+      "buyUrl": "https://store.steampowered.com/app/648800/"
+    },
+    {
+      "id": "mmeiguokachemoniv16130shaohuazhongwe",
+      "title": "M美国卡车模拟 v1.61.3.0s 豪华中文版 全DLC",
+      "category": "模拟驾驶",
+      "tags": [
+        "卡车模拟",
+        "驾驶",
+        "美国",
+        "开放世界",
+        "放松"
+      ],
+      "cover": "images/covers/mmeiguokachemoniv16130shaohuazhongwe.jpg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "Mac",
+        "Linux"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/1ddff5af5ffb",
+          "code": ""
+        }
+      ],
+      "size": "26.2 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "SCS Software",
+      "releaseDate": "2016-02-02",
+      "description": "驾驶标志性美国卡车，穿越精心还原的美国各州与地标运送货物；可深度定制车辆，并逐步建立自己的物流帝国。",
+      "note": "豪华中文版，全DLC",
+      "buyUrl": "https://store.steampowered.com/app/270880/"
+    },
+    {
+      "id": "mmonihuocheshijie6v20260729quandlc",
+      "title": "M模拟火车世界6 v20260729 全DLC",
+      "category": "模拟驾驶",
+      "tags": [
+        "火车模拟",
+        "驾驶",
+        "模拟",
+        "交通",
+        "沉浸式"
+      ],
+      "cover": "images/covers/mmonihuocheshijie6v20260729quandlc.svg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS",
+        "Xbox"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/ea98de6f596f",
+          "code": ""
+        }
+      ],
+      "size": "510.5 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Dovetail Games",
+      "releaseDate": "2025-10-01",
+      "description": "驾驶三条新线路上的强力列车，掌握新技能并扩展爱好，体验真实线路、广播细节与不断变化的天气带来的铁路模拟乐趣。",
+      "note": "全DLC",
+      "buyUrl": "https://store.steampowered.com/app/3656800/"
+    },
+    {
+      "id": "mmonihuocheshijie7",
+      "title": "M模拟火车世界7",
+      "category": "模拟驾驶",
+      "tags": [
+        "火车模拟",
+        "驾驶",
+        "模拟",
+        "交通",
+        "沉浸式"
+      ],
+      "cover": "images/covers/mmonihuocheshijie7.svg",
+      "screenshots": [],
+      "platform": [
+        "Windows",
+        "PS5",
+        "Xbox Series X|S"
+      ],
+      "featured": false,
+      "addedAt": "2026-11-21",
+      "links": [
+        {
+          "name": "夸克网盘",
+          "type": "quark",
+          "url": "https://pan.quark.cn/s/251e257fbf67",
+          "code": ""
+        }
+      ],
+      "size": "27.3 GB（以夸克网盘页面显示为准）",
+      "language": "简体中文",
+      "publisher": "Dovetail Games",
+      "releaseDate": "2026-09-15",
+      "description": "体验铁路上的生活。新增货运模式、实时天气、新手操控与PC端史诗级画质设定，在真实线路上驾驶列车，享受沉浸、放松与控制感。",
+      "note": "无",
+      "buyUrl": "https://store.steampowered.com/app/4678800/"
+    }
+  ]
 }
