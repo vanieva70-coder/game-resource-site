@@ -189,18 +189,16 @@ function renderDetail(id) {
   if (g.releaseDate) info.push(['发售日期', g.releaseDate]);
 
   const links = (g.links || []).map((l) => {
-    const lc = (st && st.clicks && st.clicks[l.name]) || 0;
-    const copyAll = l.url + (l.code ? `，提取码：${l.code}` : '');
-    return `<div class="link-card">
-      <span class="link-dot" style="background:${providerColor(l.type)}"></span>
-      <div class="link-info">
-        <div class="link-name">${esc(l.name)}</div>
-        ${l.code ? `<div class="link-code">提取码 <code>${esc(l.code)}</code> <button class="btn-mini" data-copy="${esc(l.code)}">复制</button></div>` : ''}
-      </div>
-      <div class="link-actions">
-        ${lc ? `<span class="link-count">已下载 ${lc} 次</span>` : ''}
-        <button class="btn btn-ghost" data-copy="${esc(copyAll)}">复制链接+提取码</button>
-        <a class="btn btn-primary" href="${esc(l.url)}" target="_blank" rel="noopener nofollow" data-download data-link="${esc(l.name)}">打开网盘 ↗</a>
+    const qrPayload = l.url + (l.code ? `?pwd=${l.code}` : '');
+    return `<div class="qr-card">
+      <div class="qr-box" data-qr="${esc(qrPayload)}"></div>
+      <div class="qr-side">
+        <div class="qr-name">
+          <span class="link-dot" style="background:${providerColor(l.type)}"></span>${esc(l.name)}
+        </div>
+        <div class="qr-tip">用手机扫描左侧二维码<br/><b>直接跳转网盘下载页</b></div>
+        ${l.code ? `<div class="qr-code-line">提取码 <code>${esc(l.code)}</code></div>` : ''}
+        <div class="qr-phone-tag">📱 仅支持手机扫码</div>
       </div>
     </div>`;
   }).join('');
@@ -245,6 +243,34 @@ function renderDetail(id) {
   `;
   window.scrollTo({ top: 0 });
   track('view', g.id);
+
+  // 生成二维码（手机扫码用）
+  renderQRCodes(dv);
+}
+
+/* ============ 二维码渲染（纯前端，无外部依赖） ============ */
+function renderQRCodes(root) {
+  const boxes = root.querySelectorAll('.qr-box[data-qr]');
+  if (!boxes.length) return;
+  if (typeof window.QRCode === 'undefined') {
+    boxes.forEach((b) => { b.innerHTML = '<span style="color:#666;font-size:12px;text-align:center;padding:8px">二维码加载失败<br>请刷新页面</span>'; });
+    return;
+  }
+  boxes.forEach((box) => {
+    const data = box.getAttribute('data-qr');
+    try {
+      new window.QRCode(box, {
+        text: data,
+        width: 148,
+        height: 148,
+        colorDark: '#111111',
+        colorLight: '#ffffff',
+        correctLevel: window.QRCode.CorrectLevel.M,
+      });
+    } catch (e) {
+      box.innerHTML = '<span style="color:#666;font-size:12px">生成失败</span>';
+    }
+  });
 }
 
 /* ============ 路由 ============ */
