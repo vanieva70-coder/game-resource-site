@@ -96,18 +96,6 @@
           "type": "quark",
           "url": "https://pan.quark.cn/s/061193fe9d24?pwd=6666",
           "code": ""
-        },
-        {
-          "name": "网盘下载",
-          "type": "default",
-          "url": "https://store.steampowered.com/app/1145360/",
-          "code": ""
-        },
-        {
-          "name": "网盘下载",
-          "type": "default",
-          "url": "https://任意商店网址",
-          "code": ""
         }
       ],
       "size": "4.3 GB（以夸克网盘页面显示为准）",
