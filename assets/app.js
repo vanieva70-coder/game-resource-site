@@ -111,10 +111,22 @@ function bindEvents() {
   });
 
   $('#main').addEventListener('click', onMainClick);
-  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') { closeLightbox(); closeQRModal(); }
+  });
+  // 二维码弹窗：关闭按钮 / 遮罩
+  document.addEventListener('click', (e) => {
+    if (e.target.closest('[data-qr-close]')) { closeQRModal(); }
+  });
 }
 
 function onMainClick(e) {
+  const qrBtn = e.target.closest('[data-qr-show]');
+  if (qrBtn) {
+    e.preventDefault();
+    showQRModal(qrBtn.dataset.qrShow, qrBtn.dataset.qrName, qrBtn.dataset.qrCode);
+    return;
+  }
   const dl = e.target.closest('[data-download]');
   if (dl) { track('click', state.current && state.current.id || '', dl.dataset.link || ''); return; }
   const cp = e.target.closest('[data-copy]');
@@ -188,18 +200,17 @@ function renderDetail(id) {
   if (g.publisher) info.push(['开发商', g.publisher]);
   if (g.releaseDate) info.push(['发售日期', g.releaseDate]);
 
-  const links = (g.links || []).map((l) => {
-    const qrPayload = l.url + (l.code ? `?pwd=${l.code}` : '');
+  const links = (g.links || []).map((l, i) => {
+    const qrPayload = l.url + (l.code ? (l.url.includes('?') ? `&pwd=${l.code}` : `?pwd=${l.code}`) : '');
     return `<div class="qr-card">
-      <div class="qr-box" data-qr="${esc(qrPayload)}"></div>
+      <span class="link-dot" style="background:${providerColor(l.type)}"></span>
       <div class="qr-side">
-        <div class="qr-name">
-          <span class="link-dot" style="background:${providerColor(l.type)}"></span>${esc(l.name)}
-        </div>
-        <div class="qr-tip">用手机扫描左侧二维码<br/><b>直接跳转网盘下载页</b></div>
-        ${l.code ? `<div class="qr-code-line">提取码 <code>${esc(l.code)}</code></div>` : ''}
-        <div class="qr-phone-tag">📱 仅支持手机扫码</div>
+        <div class="qr-name">${esc(l.name)}</div>
+        <div class="qr-tip">点右侧按钮显示二维码<br/>用手机扫一扫即可跳转下载</div>
       </div>
+      <button class="btn btn-qr" data-qr-show="${esc(qrPayload)}" data-qr-name="${esc(l.name)}" data-qr-code="${esc(l.code || '')}">
+        📱 显示二维码
+      </button>
     </div>`;
   }).join('');
 
@@ -243,34 +254,53 @@ function renderDetail(id) {
   `;
   window.scrollTo({ top: 0 });
   track('view', g.id);
-
-  // 生成二维码（手机扫码用）
-  renderQRCodes(dv);
 }
 
-/* ============ 二维码渲染（纯前端，无外部依赖） ============ */
-function renderQRCodes(root) {
-  const boxes = root.querySelectorAll('.qr-box[data-qr]');
-  if (!boxes.length) return;
+/* ============ 二维码弹窗（点击按钮后生成） ============ */
+function showQRModal(payload, name, code) {
+  const old = document.getElementById('qr-modal');
+  if (old) old.remove();
+
+  const m = document.createElement('div');
+  m.id = 'qr-modal';
+  m.className = 'qr-modal';
+  m.innerHTML = `
+    <div class="qr-modal-mask" data-qr-close></div>
+    <div class="qr-modal-box" role="dialog" aria-label="扫码下载">
+      <button class="qr-modal-close" data-qr-close aria-label="关闭">×</button>
+      <div class="qr-modal-title">${name}</div>
+      <div class="qr-modal-tip">用手机扫描下方二维码</div>
+      <div class="qr-modal-qr" id="qr-modal-canvas"></div>
+      ${code ? `<div class="qr-modal-code">提取码 <code>${code}</code></div>` : ''}
+      <div class="qr-modal-note">📱 手机扫码后可直接跳转网盘下载页</div>
+    </div>`;
+  document.body.appendChild(m);
+  requestAnimationFrame(() => m.classList.add('show'));
+
+  const host = document.getElementById('qr-modal-canvas');
   if (typeof window.QRCode === 'undefined') {
-    boxes.forEach((b) => { b.innerHTML = '<span style="color:#666;font-size:12px;text-align:center;padding:8px">二维码加载失败<br>请刷新页面</span>'; });
-    return;
-  }
-  boxes.forEach((box) => {
-    const data = box.getAttribute('data-qr');
+    host.innerHTML = '<span style="color:#888;font-size:13px;padding:20px;text-align:center">二维码库加载失败<br>请刷新页面</span>';
+  } else {
     try {
-      new window.QRCode(box, {
-        text: data,
-        width: 148,
-        height: 148,
+      new window.QRCode(host, {
+        text: payload,
+        width: 240,
+        height: 240,
         colorDark: '#111111',
         colorLight: '#ffffff',
         correctLevel: window.QRCode.CorrectLevel.M,
       });
     } catch (e) {
-      box.innerHTML = '<span style="color:#666;font-size:12px">生成失败</span>';
+      host.innerHTML = '<span style="color:#888;font-size:13px">生成失败</span>';
     }
-  });
+  }
+}
+
+function closeQRModal() {
+  const m = document.getElementById('qr-modal');
+  if (!m) return;
+  m.classList.remove('show');
+  setTimeout(() => m.remove(), 180);
 }
 
 /* ============ 路由 ============ */

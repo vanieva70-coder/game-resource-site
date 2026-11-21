@@ -177,35 +177,66 @@ input,select{font:inherit;color:inherit}
 .link-actions{display:flex;align-items:center;gap:9px;flex-wrap:wrap;justify-content:flex-end}
 .link-count{font-size:12px;color:var(--dim)}
 
-/* ===== 纯二维码下载卡（手机扫码专用） ===== */
+/* ===== 二维码下载卡（点击弹窗） ===== */
 .qr-card{
-  display:flex;align-items:center;gap:20px;background:var(--card);
+  display:flex;align-items:center;gap:16px;background:var(--card);
   border:1px solid var(--border-soft);border-radius:var(--radius-sm);
-  padding:18px 20px;transition:border-color .15s;
+  padding:16px 20px;transition:border-color .15s;
 }
 .qr-card:hover{border-color:var(--border)}
-.qr-box{
-  width:168px;height:168px;flex:none;background:#fff;border-radius:10px;
-  display:flex;align-items:center;justify-content:center;padding:10px;
-  box-shadow:0 4px 18px rgba(0,0,0,.28);
-}
-.qr-box img,.qr-box canvas{width:100%;height:100%;display:block;image-rendering:pixelated}
 .qr-side{flex:1;min-width:0}
-.qr-name{display:flex;align-items:center;gap:8px;font-weight:700;font-size:16px}
-.qr-tip{font-size:12.5px;color:var(--muted);margin-top:8px;line-height:1.65}
-.qr-tip b{color:var(--accent2);font-weight:600}
-.qr-code-line{
-  margin-top:10px;font-size:13px;color:var(--muted);
-  display:flex;align-items:center;gap:8px;
+.qr-name{font-weight:700;font-size:15.5px}
+.qr-tip{font-size:12.5px;color:var(--muted);margin-top:5px;line-height:1.6}
+.btn-qr{
+  background:linear-gradient(135deg,var(--accent),#9a6cff);color:#fff;font-weight:600;
+  border:none;cursor:pointer;padding:10px 20px;font-size:14px;
+  box-shadow:0 4px 14px rgba(124,92,255,.3);
 }
-.qr-code-line code{
-  background:var(--bg-soft);border:1px solid var(--border-soft);padding:2px 10px;
-  border-radius:6px;color:var(--accent2);font-family:inherit;letter-spacing:1px;font-weight:700;
+.btn-qr:hover{filter:brightness(1.12);transform:translateY(-1px)}
+
+/* ===== 二维码弹窗 ===== */
+.qr-modal{
+  position:fixed;inset:0;z-index:9999;
+  display:flex;align-items:center;justify-content:center;
+  opacity:0;transition:opacity .18s ease;
 }
-.qr-phone-tag{
-  display:inline-flex;align-items:center;gap:5px;font-size:11.5px;font-weight:600;
-  color:#7bffb0;background:rgba(45,200,120,.13);border:1px solid rgba(45,200,120,.3);
-  padding:3px 10px;border-radius:999px;margin-top:12px;
+.qr-modal.show{opacity:1}
+.qr-modal-mask{position:absolute;inset:0;background:rgba(6,7,12,.82);backdrop-filter:blur(6px)}
+.qr-modal-box{
+  position:relative;background:var(--card,#151823);border:1px solid var(--border-soft);
+  border-radius:18px;padding:28px 34px 24px;text-align:center;
+  box-shadow:0 24px 70px rgba(0,0,0,.6);
+  transform:scale(.94);transition:transform .18s cubic-bezier(.2,.9,.3,1.4);
+  max-width:92vw;
+}
+.qr-modal.show .qr-modal-box{transform:scale(1)}
+.qr-modal-close{
+  position:absolute;top:10px;right:14px;background:none;border:none;
+  color:#8b93a7;font-size:28px;line-height:1;cursor:pointer;padding:4px 8px;border-radius:8px;
+  transition:.15s;
+}
+.qr-modal-close:hover{color:#fff;background:rgba(255,255,255,.08)}
+.qr-modal-title{font-size:17px;font-weight:700;color:var(--text,#eef1f8);margin-bottom:6px}
+.qr-modal-tip{font-size:13px;color:#8b93a7;margin-bottom:18px}
+.qr-modal-qr{
+  width:248px;height:248px;margin:0 auto;background:#fff;border-radius:12px;
+  display:flex;align-items:center;justify-content:center;padding:4px;
+  box-shadow:0 6px 24px rgba(0,0,0,.35);
+}
+.qr-modal-qr img,.qr-modal-qr canvas{width:100%;height:100%;display:block}
+.qr-modal-code{
+  margin-top:16px;font-size:14px;color:#8b93a7;
+  display:flex;align-items:center;justify-content:center;gap:8px;
+}
+.qr-modal-code code{
+  background:rgba(255,255,255,.07);border:1px solid var(--border-soft);
+  padding:3px 14px;border-radius:7px;color:var(--accent2,#9a6cff);
+  font-family:inherit;letter-spacing:2px;font-weight:700;font-size:15px;
+}
+.qr-modal-note{
+  margin-top:14px;font-size:12px;color:#7bffb0;
+  background:rgba(45,200,120,.1);border:1px solid rgba(45,200,120,.25);
+  padding:6px 14px;border-radius:999px;display:inline-block;
 }
 .btn{font-size:13.5px;padding:8px 15px;border-radius:9px;transition:.15s;display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
 .btn-primary{
